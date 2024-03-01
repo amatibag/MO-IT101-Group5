@@ -5764,7 +5764,7 @@ public static void payslipNObenefits(double netGross, double sssDed, double pHea
             
             System.out.println("What would you like to do next? "+ "\n" +
                                 "A. Calculate Salary for another employee" + "\n" +
-                                "B. View payroll infput summary file"+ "\n" +
+                                "B. View payroll input summary file"+ "\n" +
                                 "Enter letter of your choice (a or b)");
                 Scanner next = new Scanner (System.in);
                 String nextTask = next.next();
@@ -5830,7 +5830,7 @@ public static void payslipWITHbenefits(double netGross, double sssDed, double pH
             
             System.out.println("What would you like to do next? "+ "\n" +
                                 "A. Calculate Salary for another employee" + "\n" +
-                                "B. View payroll infput summary file"+ "\n" +
+                                "B. View payroll input summary file"+ "\n" +
                                 "Enter letter of your choice (a or b)");
                 Scanner next = new Scanner (System.in);
                 String nextTask = next.next();

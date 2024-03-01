@@ -1,3 +1,4 @@
 Employee#      Employee Name                    GrossPay        SSS         PhilHealth          PagIbig         WitholdingTax           Benefits       NetPay         
-10             Alvaro, Roderick                 9875.56         1125.0      790.05              100.0           0.0                     3500.0         11360.51       
-1              Garcia, Manuel III               23705.17        1125.0      900.0               100.0           149.43                  4500.0         25930.74       
+5              Hernandez, Eduard                8935.04         1125.0      790.05              100.0           0.0                     3500.0         10419.99       
+5              Hernandez, Eduard                4389.14         1125.0      790.05              100.0           0.0                     3500.0         5874.09        
+1              Garcia, Manuel III               19151.63        1125.0      900.0               100.0           0.0                     4500.0         21526.63       
