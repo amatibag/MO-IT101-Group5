@@ -165,9 +165,9 @@ public static void enterEmployeeNo() {
         try{
         double nonTaxableBenefits = riceSubsidy1 + phoneAllowance1 + clothingAllowance1;
         double taxableEarnings = calculateTaxableWage(hourlyRate1);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary1);
+        double philHealth = calculatePhilHealth(basicSalary1);
+        double pagIbig = calculatePagibig(basicSalary1);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -242,9 +242,9 @@ public static void enterEmployeeNo() {
         try{
         double nonTaxableBenefits = riceSubsidy2 + phoneAllowance2 + clothingAllowance2;
         double taxableEarnings = calculateTaxableWage(hourlyRate2);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary2);
+        double philHealth = calculatePhilHealth(basicSalary2);
+        double pagIbig = calculatePagibig(basicSalary2);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -320,9 +320,9 @@ public static void enterEmployeeNo() {
         try{
         double nonTaxableBenefits = riceSubsidy3 + phoneAllowance3 + clothingAllowance3;
         double taxableEarnings = calculateTaxableWage(hourlyRate3);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary3);
+        double philHealth = calculatePhilHealth(basicSalary3);
+        double pagIbig = calculatePagibig(basicSalary3);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -397,9 +397,9 @@ public static void enterEmployeeNo() {
         try{
         double nonTaxableBenefits = riceSubsidy4 + phoneAllowance4 + clothingAllowance4;
         double taxableEarnings = calculateTaxableWage(hourlyRate4);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary4);
+        double philHealth = calculatePhilHealth(basicSalary4);
+        double pagIbig = calculatePagibig(basicSalary4);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -474,9 +474,9 @@ public static void enterEmployeeNo() {
         try{
         double nonTaxableBenefits = riceSubsidy5 + phoneAllowance5 + clothingAllowance5;
         double taxableEarnings = calculateTaxableWage(hourlyRate5);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary5);
+        double philHealth = calculatePhilHealth(basicSalary5);
+        double pagIbig = calculatePagibig(basicSalary5);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -551,9 +551,9 @@ public static void enterEmployeeNo() {
         try{
         double nonTaxableBenefits = riceSubsidy6 + phoneAllowance6 + clothingAllowance6;
         double taxableEarnings = calculateTaxableWage(hourlyRate6);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary6);
+        double philHealth = calculatePhilHealth(basicSalary6);
+        double pagIbig = calculatePagibig(basicSalary6);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -628,9 +628,9 @@ public static void enterEmployeeNo() {
         try{
         double nonTaxableBenefits = riceSubsidy7 + phoneAllowance7 + clothingAllowance7;
         double taxableEarnings = calculateTaxableWage(hourlyRate7);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary7);
+        double philHealth = calculatePhilHealth(basicSalary7);
+        double pagIbig = calculatePagibig(basicSalary7);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -705,9 +705,9 @@ public static void enterEmployeeNo() {
         try{
         double nonTaxableBenefits = riceSubsidy8 + phoneAllowance8 + clothingAllowance8;
         double taxableEarnings = calculateTaxableWage(hourlyRate8);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary8);
+        double philHealth = calculatePhilHealth(basicSalary8);
+        double pagIbig = calculatePagibig(basicSalary8);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -782,9 +782,9 @@ public static void enterEmployeeNo() {
         try{
         double nonTaxableBenefits = riceSubsidy9 + phoneAllowance9 + clothingAllowance9;
         double taxableEarnings = calculateTaxableWage(hourlyRate9);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary9);
+        double philHealth = calculatePhilHealth(basicSalary9);
+        double pagIbig = calculatePagibig(basicSalary9);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -860,9 +860,9 @@ public static void enterEmployeeNo() {
         try{
         double nonTaxableBenefits = riceSubsidy10 + phoneAllowance10 + clothingAllowance10;
         double taxableEarnings = calculateTaxableWage(hourlyRate10);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary10);
+        double philHealth = calculatePhilHealth(basicSalary10);
+        double pagIbig = calculatePagibig(basicSalary10);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -937,9 +937,9 @@ public static void enterEmployeeNo() {
         try{
         double nonTaxableBenefits = riceSubsidy11 + phoneAllowance11 + clothingAllowance11;
         double taxableEarnings = calculateTaxableWage(hourlyRate11);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary11);
+        double philHealth = calculatePhilHealth(basicSalary11);
+        double pagIbig = calculatePagibig(basicSalary11);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -1014,9 +1014,9 @@ public static void enterEmployeeNo() {
         try{
         double nonTaxableBenefits = riceSubsidy12 + phoneAllowance12 + clothingAllowance12;
         double taxableEarnings = calculateTaxableWage(hourlyRate12);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary12);
+        double philHealth = calculatePhilHealth(basicSalary12);
+        double pagIbig = calculatePagibig(basicSalary12);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -1091,9 +1091,9 @@ public static void enterEmployeeNo() {
         try{
         double nonTaxableBenefits = riceSubsidy13 + phoneAllowance13 + clothingAllowance13;
         double taxableEarnings = calculateTaxableWage(hourlyRate13);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary13);
+        double philHealth = calculatePhilHealth(basicSalary13);
+        double pagIbig = calculatePagibig(basicSalary13);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -1169,9 +1169,9 @@ public static void enterEmployeeNo() {
         try{
         double nonTaxableBenefits = riceSubsidy14 + phoneAllowance14 + clothingAllowance14;
         double taxableEarnings = calculateTaxableWage(hourlyRate14);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary14);
+        double philHealth = calculatePhilHealth(basicSalary14);
+        double pagIbig = calculatePagibig(basicSalary14);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -1246,9 +1246,9 @@ public static void enterEmployeeNo() {
         try{
         double nonTaxableBenefits = riceSubsidy15 + phoneAllowance15 + clothingAllowance15;
         double taxableEarnings = calculateTaxableWage(hourlyRate15);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary15);
+        double philHealth = calculatePhilHealth(basicSalary15);
+        double pagIbig = calculatePagibig(basicSalary15);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -1323,9 +1323,9 @@ public static void enterEmployeeNo() {
         try{
         double nonTaxableBenefits = riceSubsidy16 + phoneAllowance16 + clothingAllowance16;
         double taxableEarnings = calculateTaxableWage(hourlyRate16);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary16);
+        double philHealth = calculatePhilHealth(basicSalary16);
+        double pagIbig = calculatePagibig(basicSalary16);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -1400,9 +1400,9 @@ public static void enterEmployeeNo() {
         try{
         double nonTaxableBenefits = riceSubsidy17 + phoneAllowance17 + clothingAllowance17;
         double taxableEarnings = calculateTaxableWage(hourlyRate17);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary17);
+        double philHealth = calculatePhilHealth(basicSalary17);
+        double pagIbig = calculatePagibig(basicSalary17);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -1477,9 +1477,9 @@ public static void enterEmployeeNo() {
         try{
         double nonTaxableBenefits = riceSubsidy18 + phoneAllowance18 + clothingAllowance18;
         double taxableEarnings = calculateTaxableWage(hourlyRate18);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary18);
+        double philHealth = calculatePhilHealth(basicSalary18);
+        double pagIbig = calculatePagibig(basicSalary18);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -1553,9 +1553,9 @@ public static void enterEmployeeNo() {
         try{
         double nonTaxableBenefits = riceSubsidy19 + phoneAllowance19 + clothingAllowance19;
         double taxableEarnings = calculateTaxableWage(hourlyRate19);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary19);
+        double philHealth = calculatePhilHealth(basicSalary19);
+        double pagIbig = calculatePagibig(basicSalary19);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -1630,9 +1630,9 @@ public static void enterEmployeeNo() {
         try{
         double nonTaxableBenefits = riceSubsidy20 + phoneAllowance20 + clothingAllowance20;
         double taxableEarnings = calculateTaxableWage(hourlyRate20);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary20);
+        double philHealth = calculatePhilHealth(basicSalary20);
+        double pagIbig = calculatePagibig(basicSalary20);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -1707,9 +1707,9 @@ public static void enterEmployeeNo() {
         try{
         double nonTaxableBenefits = riceSubsidy21 + phoneAllowance21 + clothingAllowance21;
         double taxableEarnings = calculateTaxableWage(hourlyRate21);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary21);
+        double philHealth = calculatePhilHealth(basicSalary21);
+        double pagIbig = calculatePagibig(basicSalary21);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -1785,9 +1785,9 @@ public static void enterEmployeeNo() {
         try{
         double nonTaxableBenefits = riceSubsidy22 + phoneAllowance22 + clothingAllowance22;
         double taxableEarnings = calculateTaxableWage(hourlyRate22);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary22);
+        double philHealth = calculatePhilHealth(basicSalary22);
+        double pagIbig = calculatePagibig(basicSalary22);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -1863,9 +1863,9 @@ public static void enterEmployeeNo() {
         try{
         double nonTaxableBenefits = riceSubsidy23 + phoneAllowance23 + clothingAllowance23;
         double taxableEarnings = calculateTaxableWage(hourlyRate23);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary23);
+        double philHealth = calculatePhilHealth(basicSalary23);
+        double pagIbig = calculatePagibig(basicSalary23);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -1942,9 +1942,9 @@ public static void enterEmployeeNo() {
         try{
         double nonTaxableBenefits = riceSubsidy24 + phoneAllowance24 + clothingAllowance24;
         double taxableEarnings = calculateTaxableWage(hourlyRate24);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary24);
+        double philHealth = calculatePhilHealth(basicSalary24);
+        double pagIbig = calculatePagibig(basicSalary24);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -2019,9 +2019,9 @@ public static void employee26() {
         try{
         double nonTaxableBenefits = riceSubsidy26 + phoneAllowance26 + clothingAllowance26;
         double taxableEarnings = calculateTaxableWage(hourlyRate26);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary26);
+        double philHealth = calculatePhilHealth(basicSalary26);
+        double pagIbig = calculatePagibig(basicSalary26);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -2096,9 +2096,9 @@ public static void employee26() {
         try{
         double nonTaxableBenefits = riceSubsidy25 + phoneAllowance25 + clothingAllowance25;
         double taxableEarnings = calculateTaxableWage(hourlyRate25);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary25);
+        double philHealth = calculatePhilHealth(basicSalary25);
+        double pagIbig = calculatePagibig(basicSalary25);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -2173,9 +2173,9 @@ public static void employee26() {
         try{
         double nonTaxableBenefits = riceSubsidy27 + phoneAllowance27 + clothingAllowance27;
         double taxableEarnings = calculateTaxableWage(hourlyRate27);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary27);
+        double philHealth = calculatePhilHealth(basicSalary27);
+        double pagIbig = calculatePagibig(basicSalary27);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -2249,9 +2249,9 @@ public static void employee26() {
         try{
         double nonTaxableBenefits = riceSubsidy29 + phoneAllowance29 + clothingAllowance29;
         double taxableEarnings = calculateTaxableWage(hourlyRate29);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary29);
+        double philHealth = calculatePhilHealth(basicSalary29);
+        double pagIbig = calculatePagibig(basicSalary29);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -2326,9 +2326,9 @@ public static void employee26() {
         try{
         double nonTaxableBenefits = riceSubsidy28 + phoneAllowance28 + clothingAllowance28;
         double taxableEarnings = calculateTaxableWage(hourlyRate28);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary28);
+        double philHealth = calculatePhilHealth(basicSalary28);
+        double pagIbig = calculatePagibig(basicSalary28);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -2403,9 +2403,9 @@ public static void employee26() {
         try{
         double nonTaxableBenefits = riceSubsidy30 + phoneAllowance30 + clothingAllowance30;
         double taxableEarnings = calculateTaxableWage(hourlyRate30);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary30);
+        double philHealth = calculatePhilHealth(basicSalary30);
+        double pagIbig = calculatePagibig(basicSalary30);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -2480,9 +2480,9 @@ public static void employee26() {
         try{
         double nonTaxableBenefits = riceSubsidy31 + phoneAllowance31 + clothingAllowance31;
         double taxableEarnings = calculateTaxableWage(hourlyRate31);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary31);
+        double philHealth = calculatePhilHealth(basicSalary31);
+        double pagIbig = calculatePagibig(basicSalary31);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -2557,9 +2557,9 @@ public static void employee26() {
         try{
         double nonTaxableBenefits = riceSubsidy32 + phoneAllowance32 + clothingAllowance32;
         double taxableEarnings = calculateTaxableWage(hourlyRate32);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary32);
+        double philHealth = calculatePhilHealth(basicSalary32);
+        double pagIbig = calculatePagibig(basicSalary32);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -2634,9 +2634,9 @@ public static void employee26() {
         try{
         double nonTaxableBenefits = riceSubsidy33 + phoneAllowance33 + clothingAllowance33;
         double taxableEarnings = calculateTaxableWage(hourlyRate33);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary33);
+        double philHealth = calculatePhilHealth(basicSalary33);
+        double pagIbig = calculatePagibig(basicSalary33);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -2711,9 +2711,9 @@ public static void employee26() {
         try{
         double nonTaxableBenefits = riceSubsidy34 + phoneAllowance34 + clothingAllowance34;
         double taxableEarnings = calculateTaxableWage(hourlyRate34);
-        double sSS = calculateSSS(taxableEarnings);
-        double philHealth = calculatePhilHealth(taxableEarnings);
-        double pagIbig = calculatePagibig(taxableEarnings);
+        double sSS = calculateSSS(basicSalary34);
+        double philHealth = calculatePhilHealth(basicSalary34);
+        double pagIbig = calculatePagibig(basicSalary34);
         double withEarnings = taxableEarnings - (sSS + philHealth + pagIbig);
         double witHoldingTax = calculateWitholdingTax(withEarnings);
         
@@ -2809,8 +2809,25 @@ public static double calculateRegularHours(double totHrs) {
 
 public static double calculateTaxableWage(double hrlyRate) {
     double taxableWage = 0;
-    System.out.println("Calculate the weekly salary based on the hours worked by entering the number of hours for each week below:");
+    double totHrs1 = 0; double totHrs2 = 0; double totHrs3 = 0; double totHrs4 = 0; double totHrs5 = 0; 
+    double totHrs6 = 0; double totHrs7 = 0; double totHrs8 = 0; double totHrs9 = 0; double totHrs10 = 0;
+    double totHrs11 = 0; double totHrs12 = 0; double totHrs13 = 0; double totHrs14 = 0; double totHrs15 = 0; 
+    double totHrs16 = 0; double totHrs17 = 0; double totHrs18 = 0; double totHrs19 = 0; double totHrs20 = 0;
+    double regHrs1 = 0; double regHrs2 = 0; double regHrs3 = 0; double regHrs4 = 0; double regHrs5 = 0; 
+    double regHrs6 = 0; double regHrs7 = 0; double regHrs8 = 0; double regHrs9 = 0; double regHrs10 = 0;
+    double regHrs11 = 0; double regHrs12 = 0; double regHrs13 = 0; double regHrs14 = 0; double regHrs15 = 0; 
+    double regHrs16 = 0; double regHrs17 = 0; double regHrs18 = 0; double regHrs19 = 0; double regHrs20 = 0;
+    double otHrs1 = 0; double otHrs2 = 0; double otHrs3 = 0; double otHrs4 = 0; double otHrs5 = 0; 
+    double otHrs6 = 0; double otHrs7 = 0; double otHrs8 = 0; double otHrs9 = 0; double otHrs10 = 0;
+    double otHrs11 = 0; double otHrs12 = 0; double otHrs13 = 0; double otHrs14 = 0; double otHrs15 = 0; 
+    double otHrs16 = 0; double otHrs17 = 0; double otHrs18 = 0; double otHrs19 = 0; double otHrs20 = 0;
+    
+    System.out.println("Calculate the weekly salary based on the hours worked by entering the number of hours for day below:");
+    System.out.println("Enter the number of day/s you would like to make and entry below:");
+            Scanner noDays = new Scanner(System.in);
+            double noOfDays = noDays.nextDouble();
         
+        if (noOfDays == 1) {
         System.out.println("\n" + "Day 1: ");
             System.out.print("Enter login time (HH:mm): ");
             Scanner login1 = new Scanner(System.in);
@@ -2820,9 +2837,26 @@ public static double calculateTaxableWage(double hrlyRate) {
             Scanner logout1 = new Scanner(System.in);
             String logoutTimeString1 = logout1.next();
 
-            double totHrs1 = calculateTotalHoursWorked(loginTimeString1, logoutTimeString1);
-            double regHrs1 = calculateRegularHours(totHrs1);
-            double otHrs1 = calculateOverTime(totHrs1);
+            totHrs1 = calculateTotalHoursWorked(loginTimeString1, logoutTimeString1);
+            regHrs1 = calculateRegularHours(totHrs1);
+            otHrs1 = calculateOverTime(totHrs1);
+            
+
+        }else{
+        if (noOfDays == 2) {
+            
+        System.out.println("\n" + "Day 1: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login1 = new Scanner(System.in);
+            String loginTimeString1 = login1.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout1 = new Scanner(System.in);
+            String logoutTimeString1 = logout1.next();
+
+            totHrs1 = calculateTotalHoursWorked(loginTimeString1, logoutTimeString1);
+            regHrs1 = calculateRegularHours(totHrs1);
+            otHrs1 = calculateOverTime(totHrs1);
             
         System.out.println("\n" + "Day 2: ");
             System.out.print("Enter login time (HH:mm): ");
@@ -2833,9 +2867,36 @@ public static double calculateTaxableWage(double hrlyRate) {
             Scanner logout2 = new Scanner(System.in);
             String logoutTimeString2 = logout2.next();
 
-            double totHrs2 = calculateTotalHoursWorked(loginTimeString2, logoutTimeString2);
-            double regHrs2 = calculateRegularHours(totHrs2);
-            double otHrs2 = calculateOverTime(totHrs2);
+            totHrs2 = calculateTotalHoursWorked(loginTimeString2, logoutTimeString2);
+            regHrs2 = calculateRegularHours(totHrs2);
+            otHrs2 = calculateOverTime(totHrs2);
+        }else{
+        if (noOfDays == 3) {
+        System.out.println("\n" + "Day 1: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login1 = new Scanner(System.in);
+            String loginTimeString1 = login1.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout1 = new Scanner(System.in);
+            String logoutTimeString1 = logout1.next();
+
+            totHrs1 = calculateTotalHoursWorked(loginTimeString1, logoutTimeString1);
+            regHrs1 = calculateRegularHours(totHrs1);
+            otHrs1 = calculateOverTime(totHrs1);
+            
+        System.out.println("\n" + "Day 2: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login2 = new Scanner(System.in);
+            String loginTimeString2 = login2.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout2 = new Scanner(System.in);
+            String logoutTimeString2 = logout2.next();
+
+            totHrs2 = calculateTotalHoursWorked(loginTimeString2, logoutTimeString2);
+            regHrs2 = calculateRegularHours(totHrs2);
+            otHrs2 = calculateOverTime(totHrs2);
             
         System.out.println("\n" + "Day 3: ");
             System.out.print("Enter login time (HH:mm): ");
@@ -2846,9 +2907,49 @@ public static double calculateTaxableWage(double hrlyRate) {
             Scanner logout3 = new Scanner(System.in);
             String logoutTimeString3 = logout3.next();
 
-            double totHrs3 = calculateTotalHoursWorked(loginTimeString3, logoutTimeString3);
-            double regHrs3 = calculateRegularHours(totHrs3);
-            double otHrs3 = calculateOverTime(totHrs3);
+            totHrs3 = calculateTotalHoursWorked(loginTimeString3, logoutTimeString3);
+            regHrs3 = calculateRegularHours(totHrs3);
+            otHrs3 = calculateOverTime(totHrs3);
+        }else{
+        if (noOfDays == 4) {
+        System.out.println("\n" + "Day 1: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login1 = new Scanner(System.in);
+            String loginTimeString1 = login1.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout1 = new Scanner(System.in);
+            String logoutTimeString1 = logout1.next();
+
+            totHrs1 = calculateTotalHoursWorked(loginTimeString1, logoutTimeString1);
+            regHrs1 = calculateRegularHours(totHrs1);
+            otHrs1 = calculateOverTime(totHrs1);
+            
+        System.out.println("\n" + "Day 2: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login2 = new Scanner(System.in);
+            String loginTimeString2 = login2.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout2 = new Scanner(System.in);
+            String logoutTimeString2 = logout2.next();
+
+            totHrs2 = calculateTotalHoursWorked(loginTimeString2, logoutTimeString2);
+            regHrs2 = calculateRegularHours(totHrs2);
+            otHrs2 = calculateOverTime(totHrs2);
+            
+        System.out.println("\n" + "Day 3: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login3 = new Scanner(System.in);
+            String loginTimeString3 = login3.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout3 = new Scanner(System.in);
+            String logoutTimeString3 = logout3.next();
+
+            totHrs3 = calculateTotalHoursWorked(loginTimeString3, logoutTimeString3);
+            regHrs3 = calculateRegularHours(totHrs3);
+            otHrs3 = calculateOverTime(totHrs3);
             
         System.out.println("\n" + "Day 4: ");
             System.out.print("Enter login time (HH:mm): ");
@@ -2859,9 +2960,62 @@ public static double calculateTaxableWage(double hrlyRate) {
             Scanner logout4 = new Scanner(System.in);
             String logoutTimeString4 = logout4.next();
 
-            double totHrs4 = calculateTotalHoursWorked(loginTimeString4, logoutTimeString4);
-            double regHrs4 = calculateRegularHours(totHrs4);
-            double otHrs4 = calculateOverTime(totHrs4);
+            totHrs4 = calculateTotalHoursWorked(loginTimeString4, logoutTimeString4);
+            regHrs4 = calculateRegularHours(totHrs4);
+            otHrs4 = calculateOverTime(totHrs4);
+        }else{
+        if (noOfDays == 5) {
+        System.out.println("\n" + "Day 1: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login1 = new Scanner(System.in);
+            String loginTimeString1 = login1.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout1 = new Scanner(System.in);
+            String logoutTimeString1 = logout1.next();
+
+            totHrs1 = calculateTotalHoursWorked(loginTimeString1, logoutTimeString1);
+            regHrs1 = calculateRegularHours(totHrs1);
+            otHrs1 = calculateOverTime(totHrs1);
+            
+        System.out.println("\n" + "Day 2: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login2 = new Scanner(System.in);
+            String loginTimeString2 = login2.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout2 = new Scanner(System.in);
+            String logoutTimeString2 = logout2.next();
+
+            totHrs2 = calculateTotalHoursWorked(loginTimeString2, logoutTimeString2);
+            regHrs2 = calculateRegularHours(totHrs2);
+            otHrs2 = calculateOverTime(totHrs2);
+            
+        System.out.println("\n" + "Day 3: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login3 = new Scanner(System.in);
+            String loginTimeString3 = login3.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout3 = new Scanner(System.in);
+            String logoutTimeString3 = logout3.next();
+
+            totHrs3 = calculateTotalHoursWorked(loginTimeString3, logoutTimeString3);
+            regHrs3 = calculateRegularHours(totHrs3);
+            otHrs3 = calculateOverTime(totHrs3);
+            
+        System.out.println("\n" + "Day 4: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login4 = new Scanner(System.in);
+            String loginTimeString4 = login4.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout4 = new Scanner(System.in);
+            String logoutTimeString4 = logout4.next();
+
+            totHrs4 = calculateTotalHoursWorked(loginTimeString4, logoutTimeString4);
+            regHrs4 = calculateRegularHours(totHrs4);
+            otHrs4 = calculateOverTime(totHrs4);
             
         System.out.println("\n" + "Day 5: ");
             System.out.print("Enter login time (HH:mm): ");
@@ -2872,9 +3026,75 @@ public static double calculateTaxableWage(double hrlyRate) {
             Scanner logout5 = new Scanner(System.in);
             String logoutTimeString5 = logout5.next();
 
-            double totHrs5 = calculateTotalHoursWorked(loginTimeString5, logoutTimeString5);
-            double regHrs5 = calculateRegularHours(totHrs5);
-            double otHrs5 = calculateOverTime(totHrs5);
+            totHrs5 = calculateTotalHoursWorked(loginTimeString5, logoutTimeString5);
+            regHrs5 = calculateRegularHours(totHrs5);
+            otHrs5 = calculateOverTime(totHrs5);
+        }else{
+        if (noOfDays == 6) { 
+        System.out.println("\n" + "Day 1: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login1 = new Scanner(System.in);
+            String loginTimeString1 = login1.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout1 = new Scanner(System.in);
+            String logoutTimeString1 = logout1.next();
+
+            totHrs1 = calculateTotalHoursWorked(loginTimeString1, logoutTimeString1);
+            regHrs1 = calculateRegularHours(totHrs1);
+            otHrs1 = calculateOverTime(totHrs1);
+            
+        System.out.println("\n" + "Day 2: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login2 = new Scanner(System.in);
+            String loginTimeString2 = login2.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout2 = new Scanner(System.in);
+            String logoutTimeString2 = logout2.next();
+
+            totHrs2 = calculateTotalHoursWorked(loginTimeString2, logoutTimeString2);
+            regHrs2 = calculateRegularHours(totHrs2);
+            otHrs2 = calculateOverTime(totHrs2);
+            
+        System.out.println("\n" + "Day 3: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login3 = new Scanner(System.in);
+            String loginTimeString3 = login3.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout3 = new Scanner(System.in);
+            String logoutTimeString3 = logout3.next();
+
+            totHrs3 = calculateTotalHoursWorked(loginTimeString3, logoutTimeString3);
+            regHrs3 = calculateRegularHours(totHrs3);
+            otHrs3 = calculateOverTime(totHrs3);
+            
+        System.out.println("\n" + "Day 4: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login4 = new Scanner(System.in);
+            String loginTimeString4 = login4.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout4 = new Scanner(System.in);
+            String logoutTimeString4 = logout4.next();
+
+            totHrs4 = calculateTotalHoursWorked(loginTimeString4, logoutTimeString4);
+            regHrs4 = calculateRegularHours(totHrs4);
+            otHrs4 = calculateOverTime(totHrs4);
+            
+        System.out.println("\n" + "Day 5: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login5 = new Scanner(System.in);
+            String loginTimeString5 = login5.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout5 = new Scanner(System.in);
+            String logoutTimeString5 = logout5.next();
+
+            totHrs5 = calculateTotalHoursWorked(loginTimeString5, logoutTimeString5);
+            regHrs5 = calculateRegularHours(totHrs5);
+            otHrs5 = calculateOverTime(totHrs5);
             
         System.out.println("\n" + "Day 6: ");
             System.out.print("Enter login time (HH:mm): ");
@@ -2885,9 +3105,88 @@ public static double calculateTaxableWage(double hrlyRate) {
             Scanner logout6 = new Scanner(System.in);
             String logoutTimeString6 = logout6.next();
 
-            double totHrs6 = calculateTotalHoursWorked(loginTimeString6, logoutTimeString6);
-            double regHrs6 = calculateRegularHours(totHrs6);
-            double otHrs6 = calculateOverTime(totHrs6);
+            totHrs6 = calculateTotalHoursWorked(loginTimeString6, logoutTimeString6);
+            regHrs6 = calculateRegularHours(totHrs6);
+            otHrs6 = calculateOverTime(totHrs6);
+        }else{
+        if (noOfDays == 7) {
+        System.out.println("\n" + "Day 1: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login1 = new Scanner(System.in);
+            String loginTimeString1 = login1.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout1 = new Scanner(System.in);
+            String logoutTimeString1 = logout1.next();
+
+            totHrs1 = calculateTotalHoursWorked(loginTimeString1, logoutTimeString1);
+            regHrs1 = calculateRegularHours(totHrs1);
+            otHrs1 = calculateOverTime(totHrs1);
+            
+        System.out.println("\n" + "Day 2: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login2 = new Scanner(System.in);
+            String loginTimeString2 = login2.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout2 = new Scanner(System.in);
+            String logoutTimeString2 = logout2.next();
+
+            totHrs2 = calculateTotalHoursWorked(loginTimeString2, logoutTimeString2);
+            regHrs2 = calculateRegularHours(totHrs2);
+            otHrs2 = calculateOverTime(totHrs2);
+            
+        System.out.println("\n" + "Day 3: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login3 = new Scanner(System.in);
+            String loginTimeString3 = login3.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout3 = new Scanner(System.in);
+            String logoutTimeString3 = logout3.next();
+
+            totHrs3 = calculateTotalHoursWorked(loginTimeString3, logoutTimeString3);
+            regHrs3 = calculateRegularHours(totHrs3);
+            otHrs3 = calculateOverTime(totHrs3);
+            
+        System.out.println("\n" + "Day 4: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login4 = new Scanner(System.in);
+            String loginTimeString4 = login4.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout4 = new Scanner(System.in);
+            String logoutTimeString4 = logout4.next();
+
+            totHrs4 = calculateTotalHoursWorked(loginTimeString4, logoutTimeString4);
+            regHrs4 = calculateRegularHours(totHrs4);
+            otHrs4 = calculateOverTime(totHrs4);
+            
+        System.out.println("\n" + "Day 5: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login5 = new Scanner(System.in);
+            String loginTimeString5 = login5.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout5 = new Scanner(System.in);
+            String logoutTimeString5 = logout5.next();
+
+            totHrs5 = calculateTotalHoursWorked(loginTimeString5, logoutTimeString5);
+            regHrs5 = calculateRegularHours(totHrs5);
+            otHrs5 = calculateOverTime(totHrs5);
+            
+        System.out.println("\n" + "Day 6: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login6 = new Scanner(System.in);
+            String loginTimeString6 = login6.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout6 = new Scanner(System.in);
+            String logoutTimeString6 = logout6.next();
+
+            totHrs6 = calculateTotalHoursWorked(loginTimeString6, logoutTimeString6);
+            regHrs6 = calculateRegularHours(totHrs6);
+            otHrs6 = calculateOverTime(totHrs6);
             
         System.out.println("\n" + "Day 7: ");
             System.out.print("Enter login time (HH:mm): ");
@@ -2898,9 +3197,101 @@ public static double calculateTaxableWage(double hrlyRate) {
             Scanner logout7 = new Scanner(System.in);
             String logoutTimeString7 = logout7.next();
 
-            double totHrs7 = calculateTotalHoursWorked(loginTimeString7, logoutTimeString7);
-            double regHrs7 = calculateRegularHours(totHrs7);
-            double otHrs7 = calculateOverTime(totHrs7);
+            totHrs7 = calculateTotalHoursWorked(loginTimeString7, logoutTimeString7);
+            regHrs7 = calculateRegularHours(totHrs7);
+            otHrs7 = calculateOverTime(totHrs7);
+        }else{
+        if (noOfDays == 8) {
+        System.out.println("\n" + "Day 1: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login1 = new Scanner(System.in);
+            String loginTimeString1 = login1.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout1 = new Scanner(System.in);
+            String logoutTimeString1 = logout1.next();
+
+            totHrs1 = calculateTotalHoursWorked(loginTimeString1, logoutTimeString1);
+            regHrs1 = calculateRegularHours(totHrs1);
+            otHrs1 = calculateOverTime(totHrs1);
+            
+        System.out.println("\n" + "Day 2: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login2 = new Scanner(System.in);
+            String loginTimeString2 = login2.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout2 = new Scanner(System.in);
+            String logoutTimeString2 = logout2.next();
+
+            totHrs2 = calculateTotalHoursWorked(loginTimeString2, logoutTimeString2);
+            regHrs2 = calculateRegularHours(totHrs2);
+            otHrs2 = calculateOverTime(totHrs2);
+            
+        System.out.println("\n" + "Day 3: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login3 = new Scanner(System.in);
+            String loginTimeString3 = login3.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout3 = new Scanner(System.in);
+            String logoutTimeString3 = logout3.next();
+
+            totHrs3 = calculateTotalHoursWorked(loginTimeString3, logoutTimeString3);
+            regHrs3 = calculateRegularHours(totHrs3);
+            otHrs3 = calculateOverTime(totHrs3);
+            
+        System.out.println("\n" + "Day 4: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login4 = new Scanner(System.in);
+            String loginTimeString4 = login4.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout4 = new Scanner(System.in);
+            String logoutTimeString4 = logout4.next();
+
+            totHrs4 = calculateTotalHoursWorked(loginTimeString4, logoutTimeString4);
+            regHrs4 = calculateRegularHours(totHrs4);
+            otHrs4 = calculateOverTime(totHrs4);
+            
+        System.out.println("\n" + "Day 5: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login5 = new Scanner(System.in);
+            String loginTimeString5 = login5.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout5 = new Scanner(System.in);
+            String logoutTimeString5 = logout5.next();
+
+            totHrs5 = calculateTotalHoursWorked(loginTimeString5, logoutTimeString5);
+            regHrs5 = calculateRegularHours(totHrs5);
+            otHrs5 = calculateOverTime(totHrs5);
+            
+        System.out.println("\n" + "Day 6: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login6 = new Scanner(System.in);
+            String loginTimeString6 = login6.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout6 = new Scanner(System.in);
+            String logoutTimeString6 = logout6.next();
+
+            totHrs6 = calculateTotalHoursWorked(loginTimeString6, logoutTimeString6);
+            regHrs6 = calculateRegularHours(totHrs6);
+            otHrs6 = calculateOverTime(totHrs6);
+            
+        System.out.println("\n" + "Day 7: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login7 = new Scanner(System.in);
+            String loginTimeString7 = login7.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout7 = new Scanner(System.in);
+            String logoutTimeString7 = logout7.next();
+
+            totHrs7 = calculateTotalHoursWorked(loginTimeString7, logoutTimeString7);
+            regHrs7 = calculateRegularHours(totHrs7);
+            otHrs7 = calculateOverTime(totHrs7);    
             
         System.out.println("\n" + "Day 8: ");
             System.out.print("Enter login time (HH:mm): ");
@@ -2911,9 +3302,114 @@ public static double calculateTaxableWage(double hrlyRate) {
             Scanner logout8 = new Scanner(System.in);
             String logoutTimeString8 = logout8.next();
 
-            double totHrs8 = calculateTotalHoursWorked(loginTimeString8, logoutTimeString8);
-            double regHrs8 = calculateRegularHours(totHrs8);
-            double otHrs8 = calculateOverTime(totHrs8);
+            totHrs8 = calculateTotalHoursWorked(loginTimeString8, logoutTimeString8);
+            regHrs8 = calculateRegularHours(totHrs8);
+            otHrs8 = calculateOverTime(totHrs8);
+        }else{
+        if (noOfDays == 9) {
+        System.out.println("\n" + "Day 1: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login1 = new Scanner(System.in);
+            String loginTimeString1 = login1.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout1 = new Scanner(System.in);
+            String logoutTimeString1 = logout1.next();
+
+            totHrs1 = calculateTotalHoursWorked(loginTimeString1, logoutTimeString1);
+            regHrs1 = calculateRegularHours(totHrs1);
+            otHrs1 = calculateOverTime(totHrs1);
+            
+        System.out.println("\n" + "Day 2: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login2 = new Scanner(System.in);
+            String loginTimeString2 = login2.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout2 = new Scanner(System.in);
+            String logoutTimeString2 = logout2.next();
+
+            totHrs2 = calculateTotalHoursWorked(loginTimeString2, logoutTimeString2);
+            regHrs2 = calculateRegularHours(totHrs2);
+            otHrs2 = calculateOverTime(totHrs2);
+            
+        System.out.println("\n" + "Day 3: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login3 = new Scanner(System.in);
+            String loginTimeString3 = login3.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout3 = new Scanner(System.in);
+            String logoutTimeString3 = logout3.next();
+
+            totHrs3 = calculateTotalHoursWorked(loginTimeString3, logoutTimeString3);
+            regHrs3 = calculateRegularHours(totHrs3);
+            otHrs3 = calculateOverTime(totHrs3);
+            
+        System.out.println("\n" + "Day 4: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login4 = new Scanner(System.in);
+            String loginTimeString4 = login4.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout4 = new Scanner(System.in);
+            String logoutTimeString4 = logout4.next();
+
+            totHrs4 = calculateTotalHoursWorked(loginTimeString4, logoutTimeString4);
+            regHrs4 = calculateRegularHours(totHrs4);
+            otHrs4 = calculateOverTime(totHrs4);
+            
+        System.out.println("\n" + "Day 5: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login5 = new Scanner(System.in);
+            String loginTimeString5 = login5.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout5 = new Scanner(System.in);
+            String logoutTimeString5 = logout5.next();
+
+            totHrs5 = calculateTotalHoursWorked(loginTimeString5, logoutTimeString5);
+            regHrs5 = calculateRegularHours(totHrs5);
+            otHrs5 = calculateOverTime(totHrs5);
+            
+        System.out.println("\n" + "Day 6: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login6 = new Scanner(System.in);
+            String loginTimeString6 = login6.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout6 = new Scanner(System.in);
+            String logoutTimeString6 = logout6.next();
+
+            totHrs6 = calculateTotalHoursWorked(loginTimeString6, logoutTimeString6);
+            regHrs6 = calculateRegularHours(totHrs6);
+            otHrs6 = calculateOverTime(totHrs6);
+            
+        System.out.println("\n" + "Day 7: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login7 = new Scanner(System.in);
+            String loginTimeString7 = login7.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout7 = new Scanner(System.in);
+            String logoutTimeString7 = logout7.next();
+
+            totHrs7 = calculateTotalHoursWorked(loginTimeString7, logoutTimeString7);
+            regHrs7 = calculateRegularHours(totHrs7);
+            otHrs7 = calculateOverTime(totHrs7);    
+            
+        System.out.println("\n" + "Day 8: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login8 = new Scanner(System.in);
+            String loginTimeString8 = login8.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout8 = new Scanner(System.in);
+            String logoutTimeString8 = logout8.next();
+
+            totHrs8 = calculateTotalHoursWorked(loginTimeString8, logoutTimeString8);
+            regHrs8 = calculateRegularHours(totHrs8);
+            otHrs8 = calculateOverTime(totHrs8);    
             
         System.out.println("\n" + "Day 9: ");
             System.out.print("Enter login time (HH:mm): ");
@@ -2924,10 +3420,128 @@ public static double calculateTaxableWage(double hrlyRate) {
             Scanner logout9 = new Scanner(System.in);
             String logoutTimeString9 = logout9.next();
 
-            double totHrs9 = calculateTotalHoursWorked(loginTimeString9, logoutTimeString9);
-            double regHrs9 = calculateRegularHours(totHrs9);
-            double otHrs9 = calculateOverTime(totHrs9);
+            totHrs9 = calculateTotalHoursWorked(loginTimeString9, logoutTimeString9);
+            regHrs9 = calculateRegularHours(totHrs9);
+            otHrs9 = calculateOverTime(totHrs9);
+        }else{
+        if (noOfDays == 10) {
+        System.out.println("\n" + "Day 1: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login1 = new Scanner(System.in);
+            String loginTimeString1 = login1.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout1 = new Scanner(System.in);
+            String logoutTimeString1 = logout1.next();
+
+            totHrs1 = calculateTotalHoursWorked(loginTimeString1, logoutTimeString1);
+            regHrs1 = calculateRegularHours(totHrs1);
+            otHrs1 = calculateOverTime(totHrs1);
             
+        System.out.println("\n" + "Day 2: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login2 = new Scanner(System.in);
+            String loginTimeString2 = login2.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout2 = new Scanner(System.in);
+            String logoutTimeString2 = logout2.next();
+
+            totHrs2 = calculateTotalHoursWorked(loginTimeString2, logoutTimeString2);
+            regHrs2 = calculateRegularHours(totHrs2);
+            otHrs2 = calculateOverTime(totHrs2);
+            
+        System.out.println("\n" + "Day 3: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login3 = new Scanner(System.in);
+            String loginTimeString3 = login3.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout3 = new Scanner(System.in);
+            String logoutTimeString3 = logout3.next();
+
+            totHrs3 = calculateTotalHoursWorked(loginTimeString3, logoutTimeString3);
+            regHrs3 = calculateRegularHours(totHrs3);
+            otHrs3 = calculateOverTime(totHrs3);
+            
+        System.out.println("\n" + "Day 4: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login4 = new Scanner(System.in);
+            String loginTimeString4 = login4.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout4 = new Scanner(System.in);
+            String logoutTimeString4 = logout4.next();
+
+            totHrs4 = calculateTotalHoursWorked(loginTimeString4, logoutTimeString4);
+            regHrs4 = calculateRegularHours(totHrs4);
+            otHrs4 = calculateOverTime(totHrs4);
+            
+        System.out.println("\n" + "Day 5: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login5 = new Scanner(System.in);
+            String loginTimeString5 = login5.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout5 = new Scanner(System.in);
+            String logoutTimeString5 = logout5.next();
+
+            totHrs5 = calculateTotalHoursWorked(loginTimeString5, logoutTimeString5);
+            regHrs5 = calculateRegularHours(totHrs5);
+            otHrs5 = calculateOverTime(totHrs5);
+            
+        System.out.println("\n" + "Day 6: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login6 = new Scanner(System.in);
+            String loginTimeString6 = login6.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout6 = new Scanner(System.in);
+            String logoutTimeString6 = logout6.next();
+
+            totHrs6 = calculateTotalHoursWorked(loginTimeString6, logoutTimeString6);
+            regHrs6 = calculateRegularHours(totHrs6);
+            otHrs6 = calculateOverTime(totHrs6);
+            
+        System.out.println("\n" + "Day 7: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login7 = new Scanner(System.in);
+            String loginTimeString7 = login7.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout7 = new Scanner(System.in);
+            String logoutTimeString7 = logout7.next();
+
+            totHrs7 = calculateTotalHoursWorked(loginTimeString7, logoutTimeString7);
+            regHrs7 = calculateRegularHours(totHrs7);
+            otHrs7 = calculateOverTime(totHrs7);    
+            
+        System.out.println("\n" + "Day 8: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login8 = new Scanner(System.in);
+            String loginTimeString8 = login8.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout8 = new Scanner(System.in);
+            String logoutTimeString8 = logout8.next();
+
+            totHrs8 = calculateTotalHoursWorked(loginTimeString8, logoutTimeString8);
+            regHrs8 = calculateRegularHours(totHrs8);
+            otHrs8 = calculateOverTime(totHrs8);    
+            
+        System.out.println("\n" + "Day 9: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login9 = new Scanner(System.in);
+            String loginTimeString9 = login9.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout9 = new Scanner(System.in);
+            String logoutTimeString9 = logout9.next();
+
+            totHrs9 = calculateTotalHoursWorked(loginTimeString9, logoutTimeString9);
+            regHrs9 = calculateRegularHours(totHrs9);
+            otHrs9 = calculateOverTime(totHrs9);    
+        
         System.out.println("\n" + "Day 10: ");
             System.out.print("Enter login time (HH:mm): ");
             Scanner login10 = new Scanner(System.in);
@@ -2937,18 +3551,2048 @@ public static double calculateTaxableWage(double hrlyRate) {
             Scanner logout10 = new Scanner(System.in);
             String logoutTimeString10 = logout10.next();
 
-            double totHrs10 = calculateTotalHoursWorked(loginTimeString10, logoutTimeString10);
-            double regHrs10 = calculateRegularHours(totHrs10);
-            double otHrs10 = calculateOverTime(totHrs10);
+            totHrs10 = calculateTotalHoursWorked(loginTimeString10, logoutTimeString10);
+            regHrs10 = calculateRegularHours(totHrs10);
+            otHrs10 = calculateOverTime(totHrs10);
+        }else{
+        if (noOfDays == 11) {
+        System.out.println("\n" + "Day 1: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login1 = new Scanner(System.in);
+            String loginTimeString1 = login1.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout1 = new Scanner(System.in);
+            String logoutTimeString1 = logout1.next();
 
-            double totHrs = totHrs1 + totHrs2 + totHrs3 + totHrs4 + totHrs5 + totHrs6 + totHrs7 + totHrs8 + totHrs9 + totHrs10;
-            double totRG = regHrs1 + regHrs2 + regHrs3 + regHrs4 + regHrs5 + regHrs6 + regHrs7 + regHrs8 + regHrs9 + regHrs10;
-            double totOT = otHrs1 + otHrs2 + otHrs3 + otHrs4 + otHrs5 + otHrs6 + otHrs7 + otHrs8 + otHrs9 + otHrs10;
+            totHrs1 = calculateTotalHoursWorked(loginTimeString1, logoutTimeString1);
+            regHrs1 = calculateRegularHours(totHrs1);
+            otHrs1 = calculateOverTime(totHrs1);
+            
+        System.out.println("\n" + "Day 2: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login2 = new Scanner(System.in);
+            String loginTimeString2 = login2.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout2 = new Scanner(System.in);
+            String logoutTimeString2 = logout2.next();
+
+            totHrs2 = calculateTotalHoursWorked(loginTimeString2, logoutTimeString2);
+            regHrs2 = calculateRegularHours(totHrs2);
+            otHrs2 = calculateOverTime(totHrs2);
+            
+        System.out.println("\n" + "Day 3: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login3 = new Scanner(System.in);
+            String loginTimeString3 = login3.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout3 = new Scanner(System.in);
+            String logoutTimeString3 = logout3.next();
+
+            totHrs3 = calculateTotalHoursWorked(loginTimeString3, logoutTimeString3);
+            regHrs3 = calculateRegularHours(totHrs3);
+            otHrs3 = calculateOverTime(totHrs3);
+            
+        System.out.println("\n" + "Day 4: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login4 = new Scanner(System.in);
+            String loginTimeString4 = login4.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout4 = new Scanner(System.in);
+            String logoutTimeString4 = logout4.next();
+
+            totHrs4 = calculateTotalHoursWorked(loginTimeString4, logoutTimeString4);
+            regHrs4 = calculateRegularHours(totHrs4);
+            otHrs4 = calculateOverTime(totHrs4);
+            
+        System.out.println("\n" + "Day 5: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login5 = new Scanner(System.in);
+            String loginTimeString5 = login5.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout5 = new Scanner(System.in);
+            String logoutTimeString5 = logout5.next();
+
+            totHrs5 = calculateTotalHoursWorked(loginTimeString5, logoutTimeString5);
+            regHrs5 = calculateRegularHours(totHrs5);
+            otHrs5 = calculateOverTime(totHrs5);
+            
+        System.out.println("\n" + "Day 6: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login6 = new Scanner(System.in);
+            String loginTimeString6 = login6.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout6 = new Scanner(System.in);
+            String logoutTimeString6 = logout6.next();
+
+            totHrs6 = calculateTotalHoursWorked(loginTimeString6, logoutTimeString6);
+            regHrs6 = calculateRegularHours(totHrs6);
+            otHrs6 = calculateOverTime(totHrs6);
+            
+        System.out.println("\n" + "Day 7: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login7 = new Scanner(System.in);
+            String loginTimeString7 = login7.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout7 = new Scanner(System.in);
+            String logoutTimeString7 = logout7.next();
+
+            totHrs7 = calculateTotalHoursWorked(loginTimeString7, logoutTimeString7);
+            regHrs7 = calculateRegularHours(totHrs7);
+            otHrs7 = calculateOverTime(totHrs7);    
+            
+        System.out.println("\n" + "Day 8: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login8 = new Scanner(System.in);
+            String loginTimeString8 = login8.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout8 = new Scanner(System.in);
+            String logoutTimeString8 = logout8.next();
+
+            totHrs8 = calculateTotalHoursWorked(loginTimeString8, logoutTimeString8);
+            regHrs8 = calculateRegularHours(totHrs8);
+            otHrs8 = calculateOverTime(totHrs8);    
+            
+        System.out.println("\n" + "Day 9: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login9 = new Scanner(System.in);
+            String loginTimeString9 = login9.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout9 = new Scanner(System.in);
+            String logoutTimeString9 = logout9.next();
+
+            totHrs9 = calculateTotalHoursWorked(loginTimeString9, logoutTimeString9);
+            regHrs9 = calculateRegularHours(totHrs9);
+            otHrs9 = calculateOverTime(totHrs9);    
+        
+        System.out.println("\n" + "Day 10: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login10 = new Scanner(System.in);
+            String loginTimeString10 = login10.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout10 = new Scanner(System.in);
+            String logoutTimeString10 = logout10.next();
+
+            totHrs10 = calculateTotalHoursWorked(loginTimeString10, logoutTimeString10);
+            regHrs10 = calculateRegularHours(totHrs10);
+            otHrs10 = calculateOverTime(totHrs10);
+        
+        System.out.println("\n" + "Day 11: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login11 = new Scanner(System.in);
+            String loginTimeString11 = login11.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout11 = new Scanner(System.in);
+            String logoutTimeString11 = logout11.next();
+
+            totHrs11 = calculateTotalHoursWorked(loginTimeString11, logoutTimeString11);
+            regHrs11 = calculateRegularHours(totHrs11);
+            otHrs11 = calculateOverTime(totHrs11);
+        }else{
+        if (noOfDays == 12) {
+        System.out.println("\n" + "Day 1: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login1 = new Scanner(System.in);
+            String loginTimeString1 = login1.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout1 = new Scanner(System.in);
+            String logoutTimeString1 = logout1.next();
+
+            totHrs1 = calculateTotalHoursWorked(loginTimeString1, logoutTimeString1);
+            regHrs1 = calculateRegularHours(totHrs1);
+            otHrs1 = calculateOverTime(totHrs1);
+            
+        System.out.println("\n" + "Day 2: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login2 = new Scanner(System.in);
+            String loginTimeString2 = login2.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout2 = new Scanner(System.in);
+            String logoutTimeString2 = logout2.next();
+
+            totHrs2 = calculateTotalHoursWorked(loginTimeString2, logoutTimeString2);
+            regHrs2 = calculateRegularHours(totHrs2);
+            otHrs2 = calculateOverTime(totHrs2);
+            
+        System.out.println("\n" + "Day 3: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login3 = new Scanner(System.in);
+            String loginTimeString3 = login3.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout3 = new Scanner(System.in);
+            String logoutTimeString3 = logout3.next();
+
+            totHrs3 = calculateTotalHoursWorked(loginTimeString3, logoutTimeString3);
+            regHrs3 = calculateRegularHours(totHrs3);
+            otHrs3 = calculateOverTime(totHrs3);
+            
+        System.out.println("\n" + "Day 4: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login4 = new Scanner(System.in);
+            String loginTimeString4 = login4.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout4 = new Scanner(System.in);
+            String logoutTimeString4 = logout4.next();
+
+            totHrs4 = calculateTotalHoursWorked(loginTimeString4, logoutTimeString4);
+            regHrs4 = calculateRegularHours(totHrs4);
+            otHrs4 = calculateOverTime(totHrs4);
+            
+        System.out.println("\n" + "Day 5: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login5 = new Scanner(System.in);
+            String loginTimeString5 = login5.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout5 = new Scanner(System.in);
+            String logoutTimeString5 = logout5.next();
+
+            totHrs5 = calculateTotalHoursWorked(loginTimeString5, logoutTimeString5);
+            regHrs5 = calculateRegularHours(totHrs5);
+            otHrs5 = calculateOverTime(totHrs5);
+            
+        System.out.println("\n" + "Day 6: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login6 = new Scanner(System.in);
+            String loginTimeString6 = login6.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout6 = new Scanner(System.in);
+            String logoutTimeString6 = logout6.next();
+
+            totHrs6 = calculateTotalHoursWorked(loginTimeString6, logoutTimeString6);
+            regHrs6 = calculateRegularHours(totHrs6);
+            otHrs6 = calculateOverTime(totHrs6);
+            
+        System.out.println("\n" + "Day 7: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login7 = new Scanner(System.in);
+            String loginTimeString7 = login7.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout7 = new Scanner(System.in);
+            String logoutTimeString7 = logout7.next();
+
+            totHrs7 = calculateTotalHoursWorked(loginTimeString7, logoutTimeString7);
+            regHrs7 = calculateRegularHours(totHrs7);
+            otHrs7 = calculateOverTime(totHrs7);    
+            
+        System.out.println("\n" + "Day 8: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login8 = new Scanner(System.in);
+            String loginTimeString8 = login8.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout8 = new Scanner(System.in);
+            String logoutTimeString8 = logout8.next();
+
+            totHrs8 = calculateTotalHoursWorked(loginTimeString8, logoutTimeString8);
+            regHrs8 = calculateRegularHours(totHrs8);
+            otHrs8 = calculateOverTime(totHrs8);    
+            
+        System.out.println("\n" + "Day 9: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login9 = new Scanner(System.in);
+            String loginTimeString9 = login9.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout9 = new Scanner(System.in);
+            String logoutTimeString9 = logout9.next();
+
+            totHrs9 = calculateTotalHoursWorked(loginTimeString9, logoutTimeString9);
+            regHrs9 = calculateRegularHours(totHrs9);
+            otHrs9 = calculateOverTime(totHrs9);    
+        
+        System.out.println("\n" + "Day 10: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login10 = new Scanner(System.in);
+            String loginTimeString10 = login10.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout10 = new Scanner(System.in);
+            String logoutTimeString10 = logout10.next();
+
+            totHrs10 = calculateTotalHoursWorked(loginTimeString10, logoutTimeString10);
+            regHrs10 = calculateRegularHours(totHrs10);
+            otHrs10 = calculateOverTime(totHrs10);
+        
+        System.out.println("\n" + "Day 11: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login11 = new Scanner(System.in);
+            String loginTimeString11 = login11.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout11 = new Scanner(System.in);
+            String logoutTimeString11 = logout11.next();
+
+            totHrs11 = calculateTotalHoursWorked(loginTimeString11, logoutTimeString11);
+            regHrs11 = calculateRegularHours(totHrs11);
+            otHrs11 = calculateOverTime(totHrs11);
+        
+        System.out.println("\n" + "Day 12: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login12 = new Scanner(System.in);
+                String loginTimeString12 = login12.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout12 = new Scanner(System.in);
+                String logoutTimeString12 = logout12.next();
+
+                totHrs12 = calculateTotalHoursWorked(loginTimeString12, logoutTimeString12);
+                regHrs12 = calculateRegularHours(totHrs12);
+                otHrs12 = calculateOverTime(totHrs12);
+        }else{
+        if (noOfDays == 13) {
+            System.out.println("\n" + "Day 1: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login1 = new Scanner(System.in);
+            String loginTimeString1 = login1.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout1 = new Scanner(System.in);
+            String logoutTimeString1 = logout1.next();
+
+            totHrs1 = calculateTotalHoursWorked(loginTimeString1, logoutTimeString1);
+            regHrs1 = calculateRegularHours(totHrs1);
+            otHrs1 = calculateOverTime(totHrs1);
+            
+        System.out.println("\n" + "Day 2: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login2 = new Scanner(System.in);
+            String loginTimeString2 = login2.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout2 = new Scanner(System.in);
+            String logoutTimeString2 = logout2.next();
+
+            totHrs2 = calculateTotalHoursWorked(loginTimeString2, logoutTimeString2);
+            regHrs2 = calculateRegularHours(totHrs2);
+            otHrs2 = calculateOverTime(totHrs2);
+            
+        System.out.println("\n" + "Day 3: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login3 = new Scanner(System.in);
+            String loginTimeString3 = login3.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout3 = new Scanner(System.in);
+            String logoutTimeString3 = logout3.next();
+
+            totHrs3 = calculateTotalHoursWorked(loginTimeString3, logoutTimeString3);
+            regHrs3 = calculateRegularHours(totHrs3);
+            otHrs3 = calculateOverTime(totHrs3);
+            
+        System.out.println("\n" + "Day 4: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login4 = new Scanner(System.in);
+            String loginTimeString4 = login4.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout4 = new Scanner(System.in);
+            String logoutTimeString4 = logout4.next();
+
+            totHrs4 = calculateTotalHoursWorked(loginTimeString4, logoutTimeString4);
+            regHrs4 = calculateRegularHours(totHrs4);
+            otHrs4 = calculateOverTime(totHrs4);
+            
+        System.out.println("\n" + "Day 5: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login5 = new Scanner(System.in);
+            String loginTimeString5 = login5.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout5 = new Scanner(System.in);
+            String logoutTimeString5 = logout5.next();
+
+            totHrs5 = calculateTotalHoursWorked(loginTimeString5, logoutTimeString5);
+            regHrs5 = calculateRegularHours(totHrs5);
+            otHrs5 = calculateOverTime(totHrs5);
+            
+        System.out.println("\n" + "Day 6: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login6 = new Scanner(System.in);
+            String loginTimeString6 = login6.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout6 = new Scanner(System.in);
+            String logoutTimeString6 = logout6.next();
+
+            totHrs6 = calculateTotalHoursWorked(loginTimeString6, logoutTimeString6);
+            regHrs6 = calculateRegularHours(totHrs6);
+            otHrs6 = calculateOverTime(totHrs6);
+            
+        System.out.println("\n" + "Day 7: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login7 = new Scanner(System.in);
+            String loginTimeString7 = login7.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout7 = new Scanner(System.in);
+            String logoutTimeString7 = logout7.next();
+
+            totHrs7 = calculateTotalHoursWorked(loginTimeString7, logoutTimeString7);
+            regHrs7 = calculateRegularHours(totHrs7);
+            otHrs7 = calculateOverTime(totHrs7);    
+            
+        System.out.println("\n" + "Day 8: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login8 = new Scanner(System.in);
+            String loginTimeString8 = login8.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout8 = new Scanner(System.in);
+            String logoutTimeString8 = logout8.next();
+
+            totHrs8 = calculateTotalHoursWorked(loginTimeString8, logoutTimeString8);
+            regHrs8 = calculateRegularHours(totHrs8);
+            otHrs8 = calculateOverTime(totHrs8);    
+            
+        System.out.println("\n" + "Day 9: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login9 = new Scanner(System.in);
+            String loginTimeString9 = login9.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout9 = new Scanner(System.in);
+            String logoutTimeString9 = logout9.next();
+
+            totHrs9 = calculateTotalHoursWorked(loginTimeString9, logoutTimeString9);
+            regHrs9 = calculateRegularHours(totHrs9);
+            otHrs9 = calculateOverTime(totHrs9);    
+        
+        System.out.println("\n" + "Day 10: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login10 = new Scanner(System.in);
+            String loginTimeString10 = login10.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout10 = new Scanner(System.in);
+            String logoutTimeString10 = logout10.next();
+
+            totHrs10 = calculateTotalHoursWorked(loginTimeString10, logoutTimeString10);
+            regHrs10 = calculateRegularHours(totHrs10);
+            otHrs10 = calculateOverTime(totHrs10);
+        
+        System.out.println("\n" + "Day 11: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login11 = new Scanner(System.in);
+            String loginTimeString11 = login11.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout11 = new Scanner(System.in);
+            String logoutTimeString11 = logout11.next();
+
+            totHrs11 = calculateTotalHoursWorked(loginTimeString11, logoutTimeString11);
+            regHrs11 = calculateRegularHours(totHrs11);
+            otHrs11 = calculateOverTime(totHrs11);
+        
+        System.out.println("\n" + "Day 12: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login12 = new Scanner(System.in);
+                String loginTimeString12 = login12.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout12 = new Scanner(System.in);
+                String logoutTimeString12 = logout12.next();
+
+                totHrs12 = calculateTotalHoursWorked(loginTimeString12, logoutTimeString12);
+                regHrs12 = calculateRegularHours(totHrs12);
+                otHrs12 = calculateOverTime(totHrs12);
+        
+        System.out.println("\n" + "Day 13: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login13 = new Scanner(System.in);
+                String loginTimeString13 = login13.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout13 = new Scanner(System.in);
+                String logoutTimeString13 = logout13.next();
+
+                totHrs13 = calculateTotalHoursWorked(loginTimeString13, logoutTimeString13);
+                regHrs13 = calculateRegularHours(totHrs13);
+                otHrs13 = calculateOverTime(totHrs13);
+        }else{
+        if (noOfDays == 14) {
+        System.out.println("\n" + "Day 1: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login1 = new Scanner(System.in);
+            String loginTimeString1 = login1.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout1 = new Scanner(System.in);
+            String logoutTimeString1 = logout1.next();
+
+            totHrs1 = calculateTotalHoursWorked(loginTimeString1, logoutTimeString1);
+            regHrs1 = calculateRegularHours(totHrs1);
+            otHrs1 = calculateOverTime(totHrs1);
+            
+        System.out.println("\n" + "Day 2: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login2 = new Scanner(System.in);
+            String loginTimeString2 = login2.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout2 = new Scanner(System.in);
+            String logoutTimeString2 = logout2.next();
+
+            totHrs2 = calculateTotalHoursWorked(loginTimeString2, logoutTimeString2);
+            regHrs2 = calculateRegularHours(totHrs2);
+            otHrs2 = calculateOverTime(totHrs2);
+            
+        System.out.println("\n" + "Day 3: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login3 = new Scanner(System.in);
+            String loginTimeString3 = login3.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout3 = new Scanner(System.in);
+            String logoutTimeString3 = logout3.next();
+
+            totHrs3 = calculateTotalHoursWorked(loginTimeString3, logoutTimeString3);
+            regHrs3 = calculateRegularHours(totHrs3);
+            otHrs3 = calculateOverTime(totHrs3);
+            
+        System.out.println("\n" + "Day 4: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login4 = new Scanner(System.in);
+            String loginTimeString4 = login4.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout4 = new Scanner(System.in);
+            String logoutTimeString4 = logout4.next();
+
+            totHrs4 = calculateTotalHoursWorked(loginTimeString4, logoutTimeString4);
+            regHrs4 = calculateRegularHours(totHrs4);
+            otHrs4 = calculateOverTime(totHrs4);
+            
+        System.out.println("\n" + "Day 5: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login5 = new Scanner(System.in);
+            String loginTimeString5 = login5.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout5 = new Scanner(System.in);
+            String logoutTimeString5 = logout5.next();
+
+            totHrs5 = calculateTotalHoursWorked(loginTimeString5, logoutTimeString5);
+            regHrs5 = calculateRegularHours(totHrs5);
+            otHrs5 = calculateOverTime(totHrs5);
+            
+        System.out.println("\n" + "Day 6: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login6 = new Scanner(System.in);
+            String loginTimeString6 = login6.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout6 = new Scanner(System.in);
+            String logoutTimeString6 = logout6.next();
+
+            totHrs6 = calculateTotalHoursWorked(loginTimeString6, logoutTimeString6);
+            regHrs6 = calculateRegularHours(totHrs6);
+            otHrs6 = calculateOverTime(totHrs6);
+            
+        System.out.println("\n" + "Day 7: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login7 = new Scanner(System.in);
+            String loginTimeString7 = login7.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout7 = new Scanner(System.in);
+            String logoutTimeString7 = logout7.next();
+
+            totHrs7 = calculateTotalHoursWorked(loginTimeString7, logoutTimeString7);
+            regHrs7 = calculateRegularHours(totHrs7);
+            otHrs7 = calculateOverTime(totHrs7);    
+            
+        System.out.println("\n" + "Day 8: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login8 = new Scanner(System.in);
+            String loginTimeString8 = login8.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout8 = new Scanner(System.in);
+            String logoutTimeString8 = logout8.next();
+
+            totHrs8 = calculateTotalHoursWorked(loginTimeString8, logoutTimeString8);
+            regHrs8 = calculateRegularHours(totHrs8);
+            otHrs8 = calculateOverTime(totHrs8);    
+            
+        System.out.println("\n" + "Day 9: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login9 = new Scanner(System.in);
+            String loginTimeString9 = login9.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout9 = new Scanner(System.in);
+            String logoutTimeString9 = logout9.next();
+
+            totHrs9 = calculateTotalHoursWorked(loginTimeString9, logoutTimeString9);
+            regHrs9 = calculateRegularHours(totHrs9);
+            otHrs9 = calculateOverTime(totHrs9);    
+        
+        System.out.println("\n" + "Day 10: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login10 = new Scanner(System.in);
+            String loginTimeString10 = login10.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout10 = new Scanner(System.in);
+            String logoutTimeString10 = logout10.next();
+
+            totHrs10 = calculateTotalHoursWorked(loginTimeString10, logoutTimeString10);
+            regHrs10 = calculateRegularHours(totHrs10);
+            otHrs10 = calculateOverTime(totHrs10);
+        
+        System.out.println("\n" + "Day 11: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login11 = new Scanner(System.in);
+            String loginTimeString11 = login11.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout11 = new Scanner(System.in);
+            String logoutTimeString11 = logout11.next();
+
+            totHrs11 = calculateTotalHoursWorked(loginTimeString11, logoutTimeString11);
+            regHrs11 = calculateRegularHours(totHrs11);
+            otHrs11 = calculateOverTime(totHrs11);
+        
+        System.out.println("\n" + "Day 12: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login12 = new Scanner(System.in);
+                String loginTimeString12 = login12.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout12 = new Scanner(System.in);
+                String logoutTimeString12 = logout12.next();
+
+                totHrs12 = calculateTotalHoursWorked(loginTimeString12, logoutTimeString12);
+                regHrs12 = calculateRegularHours(totHrs12);
+                otHrs12 = calculateOverTime(totHrs12);
+        
+        System.out.println("\n" + "Day 13: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login13 = new Scanner(System.in);
+                String loginTimeString13 = login13.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout13 = new Scanner(System.in);
+                String logoutTimeString13 = logout13.next();
+
+                totHrs13 = calculateTotalHoursWorked(loginTimeString13, logoutTimeString13);
+                regHrs13 = calculateRegularHours(totHrs13);
+                otHrs13 = calculateOverTime(totHrs13);
+        
+        System.out.println("\n" + "Day 14: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login14 = new Scanner(System.in);
+                String loginTimeString14 = login14.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout14 = new Scanner(System.in);
+                String logoutTimeString14 = logout14.next();
+
+                totHrs14 = calculateTotalHoursWorked(loginTimeString14, logoutTimeString14);
+                regHrs14 = calculateRegularHours(totHrs14);
+                otHrs14 = calculateOverTime(totHrs14);
+        }else{
+        if (noOfDays == 15) {
+        System.out.println("\n" + "Day 1: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login1 = new Scanner(System.in);
+            String loginTimeString1 = login1.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout1 = new Scanner(System.in);
+            String logoutTimeString1 = logout1.next();
+
+            totHrs1 = calculateTotalHoursWorked(loginTimeString1, logoutTimeString1);
+            regHrs1 = calculateRegularHours(totHrs1);
+            otHrs1 = calculateOverTime(totHrs1);
+            
+        System.out.println("\n" + "Day 2: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login2 = new Scanner(System.in);
+            String loginTimeString2 = login2.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout2 = new Scanner(System.in);
+            String logoutTimeString2 = logout2.next();
+
+            totHrs2 = calculateTotalHoursWorked(loginTimeString2, logoutTimeString2);
+            regHrs2 = calculateRegularHours(totHrs2);
+            otHrs2 = calculateOverTime(totHrs2);
+            
+        System.out.println("\n" + "Day 3: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login3 = new Scanner(System.in);
+            String loginTimeString3 = login3.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout3 = new Scanner(System.in);
+            String logoutTimeString3 = logout3.next();
+
+            totHrs3 = calculateTotalHoursWorked(loginTimeString3, logoutTimeString3);
+            regHrs3 = calculateRegularHours(totHrs3);
+            otHrs3 = calculateOverTime(totHrs3);
+            
+        System.out.println("\n" + "Day 4: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login4 = new Scanner(System.in);
+            String loginTimeString4 = login4.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout4 = new Scanner(System.in);
+            String logoutTimeString4 = logout4.next();
+
+            totHrs4 = calculateTotalHoursWorked(loginTimeString4, logoutTimeString4);
+            regHrs4 = calculateRegularHours(totHrs4);
+            otHrs4 = calculateOverTime(totHrs4);
+            
+        System.out.println("\n" + "Day 5: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login5 = new Scanner(System.in);
+            String loginTimeString5 = login5.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout5 = new Scanner(System.in);
+            String logoutTimeString5 = logout5.next();
+
+            totHrs5 = calculateTotalHoursWorked(loginTimeString5, logoutTimeString5);
+            regHrs5 = calculateRegularHours(totHrs5);
+            otHrs5 = calculateOverTime(totHrs5);
+            
+        System.out.println("\n" + "Day 6: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login6 = new Scanner(System.in);
+            String loginTimeString6 = login6.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout6 = new Scanner(System.in);
+            String logoutTimeString6 = logout6.next();
+
+            totHrs6 = calculateTotalHoursWorked(loginTimeString6, logoutTimeString6);
+            regHrs6 = calculateRegularHours(totHrs6);
+            otHrs6 = calculateOverTime(totHrs6);
+            
+        System.out.println("\n" + "Day 7: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login7 = new Scanner(System.in);
+            String loginTimeString7 = login7.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout7 = new Scanner(System.in);
+            String logoutTimeString7 = logout7.next();
+
+            totHrs7 = calculateTotalHoursWorked(loginTimeString7, logoutTimeString7);
+            regHrs7 = calculateRegularHours(totHrs7);
+            otHrs7 = calculateOverTime(totHrs7);    
+            
+        System.out.println("\n" + "Day 8: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login8 = new Scanner(System.in);
+            String loginTimeString8 = login8.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout8 = new Scanner(System.in);
+            String logoutTimeString8 = logout8.next();
+
+            totHrs8 = calculateTotalHoursWorked(loginTimeString8, logoutTimeString8);
+            regHrs8 = calculateRegularHours(totHrs8);
+            otHrs8 = calculateOverTime(totHrs8);    
+            
+        System.out.println("\n" + "Day 9: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login9 = new Scanner(System.in);
+            String loginTimeString9 = login9.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout9 = new Scanner(System.in);
+            String logoutTimeString9 = logout9.next();
+
+            totHrs9 = calculateTotalHoursWorked(loginTimeString9, logoutTimeString9);
+            regHrs9 = calculateRegularHours(totHrs9);
+            otHrs9 = calculateOverTime(totHrs9);    
+        
+        System.out.println("\n" + "Day 10: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login10 = new Scanner(System.in);
+            String loginTimeString10 = login10.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout10 = new Scanner(System.in);
+            String logoutTimeString10 = logout10.next();
+
+            totHrs10 = calculateTotalHoursWorked(loginTimeString10, logoutTimeString10);
+            regHrs10 = calculateRegularHours(totHrs10);
+            otHrs10 = calculateOverTime(totHrs10);
+        
+        System.out.println("\n" + "Day 11: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login11 = new Scanner(System.in);
+            String loginTimeString11 = login11.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout11 = new Scanner(System.in);
+            String logoutTimeString11 = logout11.next();
+
+            totHrs11 = calculateTotalHoursWorked(loginTimeString11, logoutTimeString11);
+            regHrs11 = calculateRegularHours(totHrs11);
+            otHrs11 = calculateOverTime(totHrs11);
+        
+        System.out.println("\n" + "Day 12: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login12 = new Scanner(System.in);
+                String loginTimeString12 = login12.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout12 = new Scanner(System.in);
+                String logoutTimeString12 = logout12.next();
+
+                totHrs12 = calculateTotalHoursWorked(loginTimeString12, logoutTimeString12);
+                regHrs12 = calculateRegularHours(totHrs12);
+                otHrs12 = calculateOverTime(totHrs12);
+        
+        System.out.println("\n" + "Day 13: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login13 = new Scanner(System.in);
+                String loginTimeString13 = login13.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout13 = new Scanner(System.in);
+                String logoutTimeString13 = logout13.next();
+
+                totHrs13 = calculateTotalHoursWorked(loginTimeString13, logoutTimeString13);
+                regHrs13 = calculateRegularHours(totHrs13);
+                otHrs13 = calculateOverTime(totHrs13);
+        
+        System.out.println("\n" + "Day 14: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login14 = new Scanner(System.in);
+                String loginTimeString14 = login14.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout14 = new Scanner(System.in);
+                String logoutTimeString14 = logout14.next();
+
+                totHrs14 = calculateTotalHoursWorked(loginTimeString14, logoutTimeString14);
+                regHrs14 = calculateRegularHours(totHrs14);
+                otHrs14 = calculateOverTime(totHrs14);
+                
+        System.out.println("\n" + "Day 15: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login15 = new Scanner(System.in);
+                String loginTimeString15 = login15.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout15 = new Scanner(System.in);
+                String logoutTimeString15 = logout15.next();
+
+                totHrs15 = calculateTotalHoursWorked(loginTimeString15, logoutTimeString15);
+                regHrs15 = calculateRegularHours(totHrs15);
+                otHrs15 = calculateOverTime(totHrs15);
+        }else{
+        if (noOfDays == 16) {
+        System.out.println("\n" + "Day 1: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login1 = new Scanner(System.in);
+            String loginTimeString1 = login1.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout1 = new Scanner(System.in);
+            String logoutTimeString1 = logout1.next();
+
+            totHrs1 = calculateTotalHoursWorked(loginTimeString1, logoutTimeString1);
+            regHrs1 = calculateRegularHours(totHrs1);
+            otHrs1 = calculateOverTime(totHrs1);
+            
+        System.out.println("\n" + "Day 2: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login2 = new Scanner(System.in);
+            String loginTimeString2 = login2.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout2 = new Scanner(System.in);
+            String logoutTimeString2 = logout2.next();
+
+            totHrs2 = calculateTotalHoursWorked(loginTimeString2, logoutTimeString2);
+            regHrs2 = calculateRegularHours(totHrs2);
+            otHrs2 = calculateOverTime(totHrs2);
+            
+        System.out.println("\n" + "Day 3: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login3 = new Scanner(System.in);
+            String loginTimeString3 = login3.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout3 = new Scanner(System.in);
+            String logoutTimeString3 = logout3.next();
+
+            totHrs3 = calculateTotalHoursWorked(loginTimeString3, logoutTimeString3);
+            regHrs3 = calculateRegularHours(totHrs3);
+            otHrs3 = calculateOverTime(totHrs3);
+            
+        System.out.println("\n" + "Day 4: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login4 = new Scanner(System.in);
+            String loginTimeString4 = login4.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout4 = new Scanner(System.in);
+            String logoutTimeString4 = logout4.next();
+
+            totHrs4 = calculateTotalHoursWorked(loginTimeString4, logoutTimeString4);
+            regHrs4 = calculateRegularHours(totHrs4);
+            otHrs4 = calculateOverTime(totHrs4);
+            
+        System.out.println("\n" + "Day 5: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login5 = new Scanner(System.in);
+            String loginTimeString5 = login5.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout5 = new Scanner(System.in);
+            String logoutTimeString5 = logout5.next();
+
+            totHrs5 = calculateTotalHoursWorked(loginTimeString5, logoutTimeString5);
+            regHrs5 = calculateRegularHours(totHrs5);
+            otHrs5 = calculateOverTime(totHrs5);
+            
+        System.out.println("\n" + "Day 6: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login6 = new Scanner(System.in);
+            String loginTimeString6 = login6.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout6 = new Scanner(System.in);
+            String logoutTimeString6 = logout6.next();
+
+            totHrs6 = calculateTotalHoursWorked(loginTimeString6, logoutTimeString6);
+            regHrs6 = calculateRegularHours(totHrs6);
+            otHrs6 = calculateOverTime(totHrs6);
+            
+        System.out.println("\n" + "Day 7: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login7 = new Scanner(System.in);
+            String loginTimeString7 = login7.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout7 = new Scanner(System.in);
+            String logoutTimeString7 = logout7.next();
+
+            totHrs7 = calculateTotalHoursWorked(loginTimeString7, logoutTimeString7);
+            regHrs7 = calculateRegularHours(totHrs7);
+            otHrs7 = calculateOverTime(totHrs7);    
+            
+        System.out.println("\n" + "Day 8: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login8 = new Scanner(System.in);
+            String loginTimeString8 = login8.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout8 = new Scanner(System.in);
+            String logoutTimeString8 = logout8.next();
+
+            totHrs8 = calculateTotalHoursWorked(loginTimeString8, logoutTimeString8);
+            regHrs8 = calculateRegularHours(totHrs8);
+            otHrs8 = calculateOverTime(totHrs8);    
+            
+        System.out.println("\n" + "Day 9: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login9 = new Scanner(System.in);
+            String loginTimeString9 = login9.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout9 = new Scanner(System.in);
+            String logoutTimeString9 = logout9.next();
+
+            totHrs9 = calculateTotalHoursWorked(loginTimeString9, logoutTimeString9);
+            regHrs9 = calculateRegularHours(totHrs9);
+            otHrs9 = calculateOverTime(totHrs9);    
+        
+        System.out.println("\n" + "Day 10: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login10 = new Scanner(System.in);
+            String loginTimeString10 = login10.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout10 = new Scanner(System.in);
+            String logoutTimeString10 = logout10.next();
+
+            totHrs10 = calculateTotalHoursWorked(loginTimeString10, logoutTimeString10);
+            regHrs10 = calculateRegularHours(totHrs10);
+            otHrs10 = calculateOverTime(totHrs10);
+        
+        System.out.println("\n" + "Day 11: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login11 = new Scanner(System.in);
+            String loginTimeString11 = login11.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout11 = new Scanner(System.in);
+            String logoutTimeString11 = logout11.next();
+
+            totHrs11 = calculateTotalHoursWorked(loginTimeString11, logoutTimeString11);
+            regHrs11 = calculateRegularHours(totHrs11);
+            otHrs11 = calculateOverTime(totHrs11);
+        
+        System.out.println("\n" + "Day 12: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login12 = new Scanner(System.in);
+                String loginTimeString12 = login12.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout12 = new Scanner(System.in);
+                String logoutTimeString12 = logout12.next();
+
+                totHrs12 = calculateTotalHoursWorked(loginTimeString12, logoutTimeString12);
+                regHrs12 = calculateRegularHours(totHrs12);
+                otHrs12 = calculateOverTime(totHrs12);
+        
+        System.out.println("\n" + "Day 13: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login13 = new Scanner(System.in);
+                String loginTimeString13 = login13.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout13 = new Scanner(System.in);
+                String logoutTimeString13 = logout13.next();
+
+                totHrs13 = calculateTotalHoursWorked(loginTimeString13, logoutTimeString13);
+                regHrs13 = calculateRegularHours(totHrs13);
+                otHrs13 = calculateOverTime(totHrs13);
+        
+        System.out.println("\n" + "Day 14: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login14 = new Scanner(System.in);
+                String loginTimeString14 = login14.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout14 = new Scanner(System.in);
+                String logoutTimeString14 = logout14.next();
+
+                totHrs14 = calculateTotalHoursWorked(loginTimeString14, logoutTimeString14);
+                regHrs14 = calculateRegularHours(totHrs14);
+                otHrs14 = calculateOverTime(totHrs14);
+                
+        System.out.println("\n" + "Day 15: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login15 = new Scanner(System.in);
+                String loginTimeString15 = login15.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout15 = new Scanner(System.in);
+                String logoutTimeString15 = logout15.next();
+
+                totHrs15 = calculateTotalHoursWorked(loginTimeString15, logoutTimeString15);
+                regHrs15 = calculateRegularHours(totHrs15);
+                otHrs15 = calculateOverTime(totHrs15);
+                
+        System.out.println("\n" + "Day 16: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login16 = new Scanner(System.in);
+                String loginTimeString16 = login16.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout16 = new Scanner(System.in);
+                String logoutTimeString16 = logout16.next();
+
+                totHrs16 = calculateTotalHoursWorked(loginTimeString16, logoutTimeString16);
+                regHrs16 = calculateRegularHours(totHrs16);
+                otHrs16 = calculateOverTime(totHrs16);
+        }else{
+        if (noOfDays == 17) {
+        System.out.println("\n" + "Day 1: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login1 = new Scanner(System.in);
+            String loginTimeString1 = login1.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout1 = new Scanner(System.in);
+            String logoutTimeString1 = logout1.next();
+
+            totHrs1 = calculateTotalHoursWorked(loginTimeString1, logoutTimeString1);
+            regHrs1 = calculateRegularHours(totHrs1);
+            otHrs1 = calculateOverTime(totHrs1);
+            
+        System.out.println("\n" + "Day 2: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login2 = new Scanner(System.in);
+            String loginTimeString2 = login2.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout2 = new Scanner(System.in);
+            String logoutTimeString2 = logout2.next();
+
+            totHrs2 = calculateTotalHoursWorked(loginTimeString2, logoutTimeString2);
+            regHrs2 = calculateRegularHours(totHrs2);
+            otHrs2 = calculateOverTime(totHrs2);
+            
+        System.out.println("\n" + "Day 3: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login3 = new Scanner(System.in);
+            String loginTimeString3 = login3.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout3 = new Scanner(System.in);
+            String logoutTimeString3 = logout3.next();
+
+            totHrs3 = calculateTotalHoursWorked(loginTimeString3, logoutTimeString3);
+            regHrs3 = calculateRegularHours(totHrs3);
+            otHrs3 = calculateOverTime(totHrs3);
+            
+        System.out.println("\n" + "Day 4: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login4 = new Scanner(System.in);
+            String loginTimeString4 = login4.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout4 = new Scanner(System.in);
+            String logoutTimeString4 = logout4.next();
+
+            totHrs4 = calculateTotalHoursWorked(loginTimeString4, logoutTimeString4);
+            regHrs4 = calculateRegularHours(totHrs4);
+            otHrs4 = calculateOverTime(totHrs4);
+            
+        System.out.println("\n" + "Day 5: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login5 = new Scanner(System.in);
+            String loginTimeString5 = login5.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout5 = new Scanner(System.in);
+            String logoutTimeString5 = logout5.next();
+
+            totHrs5 = calculateTotalHoursWorked(loginTimeString5, logoutTimeString5);
+            regHrs5 = calculateRegularHours(totHrs5);
+            otHrs5 = calculateOverTime(totHrs5);
+            
+        System.out.println("\n" + "Day 6: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login6 = new Scanner(System.in);
+            String loginTimeString6 = login6.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout6 = new Scanner(System.in);
+            String logoutTimeString6 = logout6.next();
+
+            totHrs6 = calculateTotalHoursWorked(loginTimeString6, logoutTimeString6);
+            regHrs6 = calculateRegularHours(totHrs6);
+            otHrs6 = calculateOverTime(totHrs6);
+            
+        System.out.println("\n" + "Day 7: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login7 = new Scanner(System.in);
+            String loginTimeString7 = login7.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout7 = new Scanner(System.in);
+            String logoutTimeString7 = logout7.next();
+
+            totHrs7 = calculateTotalHoursWorked(loginTimeString7, logoutTimeString7);
+            regHrs7 = calculateRegularHours(totHrs7);
+            otHrs7 = calculateOverTime(totHrs7);    
+            
+        System.out.println("\n" + "Day 8: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login8 = new Scanner(System.in);
+            String loginTimeString8 = login8.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout8 = new Scanner(System.in);
+            String logoutTimeString8 = logout8.next();
+
+            totHrs8 = calculateTotalHoursWorked(loginTimeString8, logoutTimeString8);
+            regHrs8 = calculateRegularHours(totHrs8);
+            otHrs8 = calculateOverTime(totHrs8);    
+            
+        System.out.println("\n" + "Day 9: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login9 = new Scanner(System.in);
+            String loginTimeString9 = login9.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout9 = new Scanner(System.in);
+            String logoutTimeString9 = logout9.next();
+
+            totHrs9 = calculateTotalHoursWorked(loginTimeString9, logoutTimeString9);
+            regHrs9 = calculateRegularHours(totHrs9);
+            otHrs9 = calculateOverTime(totHrs9);    
+        
+        System.out.println("\n" + "Day 10: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login10 = new Scanner(System.in);
+            String loginTimeString10 = login10.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout10 = new Scanner(System.in);
+            String logoutTimeString10 = logout10.next();
+
+            totHrs10 = calculateTotalHoursWorked(loginTimeString10, logoutTimeString10);
+            regHrs10 = calculateRegularHours(totHrs10);
+            otHrs10 = calculateOverTime(totHrs10);
+        
+        System.out.println("\n" + "Day 11: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login11 = new Scanner(System.in);
+            String loginTimeString11 = login11.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout11 = new Scanner(System.in);
+            String logoutTimeString11 = logout11.next();
+
+            totHrs11 = calculateTotalHoursWorked(loginTimeString11, logoutTimeString11);
+            regHrs11 = calculateRegularHours(totHrs11);
+            otHrs11 = calculateOverTime(totHrs11);
+        
+        System.out.println("\n" + "Day 12: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login12 = new Scanner(System.in);
+                String loginTimeString12 = login12.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout12 = new Scanner(System.in);
+                String logoutTimeString12 = logout12.next();
+
+                totHrs12 = calculateTotalHoursWorked(loginTimeString12, logoutTimeString12);
+                regHrs12 = calculateRegularHours(totHrs12);
+                otHrs12 = calculateOverTime(totHrs12);
+        
+        System.out.println("\n" + "Day 13: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login13 = new Scanner(System.in);
+                String loginTimeString13 = login13.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout13 = new Scanner(System.in);
+                String logoutTimeString13 = logout13.next();
+
+                totHrs13 = calculateTotalHoursWorked(loginTimeString13, logoutTimeString13);
+                regHrs13 = calculateRegularHours(totHrs13);
+                otHrs13 = calculateOverTime(totHrs13);
+        
+        System.out.println("\n" + "Day 14: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login14 = new Scanner(System.in);
+                String loginTimeString14 = login14.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout14 = new Scanner(System.in);
+                String logoutTimeString14 = logout14.next();
+
+                totHrs14 = calculateTotalHoursWorked(loginTimeString14, logoutTimeString14);
+                regHrs14 = calculateRegularHours(totHrs14);
+                otHrs14 = calculateOverTime(totHrs14);
+                
+        System.out.println("\n" + "Day 15: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login15 = new Scanner(System.in);
+                String loginTimeString15 = login15.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout15 = new Scanner(System.in);
+                String logoutTimeString15 = logout15.next();
+
+                totHrs15 = calculateTotalHoursWorked(loginTimeString15, logoutTimeString15);
+                regHrs15 = calculateRegularHours(totHrs15);
+                otHrs15 = calculateOverTime(totHrs15);
+                
+        System.out.println("\n" + "Day 16: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login16 = new Scanner(System.in);
+                String loginTimeString16 = login16.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout16 = new Scanner(System.in);
+                String logoutTimeString16 = logout16.next();
+
+                totHrs16 = calculateTotalHoursWorked(loginTimeString16, logoutTimeString16);
+                regHrs16 = calculateRegularHours(totHrs16);
+                otHrs16 = calculateOverTime(totHrs16);
+                
+        System.out.println("\n" + "Day 17: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login17 = new Scanner(System.in);
+                String loginTimeString17 = login17.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout17 = new Scanner(System.in);
+                String logoutTimeString17 = logout17.next();
+
+                totHrs17 = calculateTotalHoursWorked(loginTimeString17, logoutTimeString17);
+                regHrs17 = calculateRegularHours(totHrs17);
+                otHrs17 = calculateOverTime(totHrs17);
+        }else{
+        if (noOfDays == 18) {
+        System.out.println("\n" + "Day 1: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login1 = new Scanner(System.in);
+            String loginTimeString1 = login1.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout1 = new Scanner(System.in);
+            String logoutTimeString1 = logout1.next();
+
+            totHrs1 = calculateTotalHoursWorked(loginTimeString1, logoutTimeString1);
+            regHrs1 = calculateRegularHours(totHrs1);
+            otHrs1 = calculateOverTime(totHrs1);
+            
+        System.out.println("\n" + "Day 2: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login2 = new Scanner(System.in);
+            String loginTimeString2 = login2.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout2 = new Scanner(System.in);
+            String logoutTimeString2 = logout2.next();
+
+            totHrs2 = calculateTotalHoursWorked(loginTimeString2, logoutTimeString2);
+            regHrs2 = calculateRegularHours(totHrs2);
+            otHrs2 = calculateOverTime(totHrs2);
+            
+        System.out.println("\n" + "Day 3: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login3 = new Scanner(System.in);
+            String loginTimeString3 = login3.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout3 = new Scanner(System.in);
+            String logoutTimeString3 = logout3.next();
+
+            totHrs3 = calculateTotalHoursWorked(loginTimeString3, logoutTimeString3);
+            regHrs3 = calculateRegularHours(totHrs3);
+            otHrs3 = calculateOverTime(totHrs3);
+            
+        System.out.println("\n" + "Day 4: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login4 = new Scanner(System.in);
+            String loginTimeString4 = login4.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout4 = new Scanner(System.in);
+            String logoutTimeString4 = logout4.next();
+
+            totHrs4 = calculateTotalHoursWorked(loginTimeString4, logoutTimeString4);
+            regHrs4 = calculateRegularHours(totHrs4);
+            otHrs4 = calculateOverTime(totHrs4);
+            
+        System.out.println("\n" + "Day 5: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login5 = new Scanner(System.in);
+            String loginTimeString5 = login5.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout5 = new Scanner(System.in);
+            String logoutTimeString5 = logout5.next();
+
+            totHrs5 = calculateTotalHoursWorked(loginTimeString5, logoutTimeString5);
+            regHrs5 = calculateRegularHours(totHrs5);
+            otHrs5 = calculateOverTime(totHrs5);
+            
+        System.out.println("\n" + "Day 6: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login6 = new Scanner(System.in);
+            String loginTimeString6 = login6.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout6 = new Scanner(System.in);
+            String logoutTimeString6 = logout6.next();
+
+            totHrs6 = calculateTotalHoursWorked(loginTimeString6, logoutTimeString6);
+            regHrs6 = calculateRegularHours(totHrs6);
+            otHrs6 = calculateOverTime(totHrs6);
+            
+        System.out.println("\n" + "Day 7: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login7 = new Scanner(System.in);
+            String loginTimeString7 = login7.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout7 = new Scanner(System.in);
+            String logoutTimeString7 = logout7.next();
+
+            totHrs7 = calculateTotalHoursWorked(loginTimeString7, logoutTimeString7);
+            regHrs7 = calculateRegularHours(totHrs7);
+            otHrs7 = calculateOverTime(totHrs7);    
+            
+        System.out.println("\n" + "Day 8: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login8 = new Scanner(System.in);
+            String loginTimeString8 = login8.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout8 = new Scanner(System.in);
+            String logoutTimeString8 = logout8.next();
+
+            totHrs8 = calculateTotalHoursWorked(loginTimeString8, logoutTimeString8);
+            regHrs8 = calculateRegularHours(totHrs8);
+            otHrs8 = calculateOverTime(totHrs8);    
+            
+        System.out.println("\n" + "Day 9: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login9 = new Scanner(System.in);
+            String loginTimeString9 = login9.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout9 = new Scanner(System.in);
+            String logoutTimeString9 = logout9.next();
+
+            totHrs9 = calculateTotalHoursWorked(loginTimeString9, logoutTimeString9);
+            regHrs9 = calculateRegularHours(totHrs9);
+            otHrs9 = calculateOverTime(totHrs9);    
+        
+        System.out.println("\n" + "Day 10: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login10 = new Scanner(System.in);
+            String loginTimeString10 = login10.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout10 = new Scanner(System.in);
+            String logoutTimeString10 = logout10.next();
+
+            totHrs10 = calculateTotalHoursWorked(loginTimeString10, logoutTimeString10);
+            regHrs10 = calculateRegularHours(totHrs10);
+            otHrs10 = calculateOverTime(totHrs10);
+        
+        System.out.println("\n" + "Day 11: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login11 = new Scanner(System.in);
+            String loginTimeString11 = login11.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout11 = new Scanner(System.in);
+            String logoutTimeString11 = logout11.next();
+
+            totHrs11 = calculateTotalHoursWorked(loginTimeString11, logoutTimeString11);
+            regHrs11 = calculateRegularHours(totHrs11);
+            otHrs11 = calculateOverTime(totHrs11);
+        
+        System.out.println("\n" + "Day 12: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login12 = new Scanner(System.in);
+                String loginTimeString12 = login12.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout12 = new Scanner(System.in);
+                String logoutTimeString12 = logout12.next();
+
+                totHrs12 = calculateTotalHoursWorked(loginTimeString12, logoutTimeString12);
+                regHrs12 = calculateRegularHours(totHrs12);
+                otHrs12 = calculateOverTime(totHrs12);
+        
+        System.out.println("\n" + "Day 13: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login13 = new Scanner(System.in);
+                String loginTimeString13 = login13.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout13 = new Scanner(System.in);
+                String logoutTimeString13 = logout13.next();
+
+                totHrs13 = calculateTotalHoursWorked(loginTimeString13, logoutTimeString13);
+                regHrs13 = calculateRegularHours(totHrs13);
+                otHrs13 = calculateOverTime(totHrs13);
+        
+        System.out.println("\n" + "Day 14: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login14 = new Scanner(System.in);
+                String loginTimeString14 = login14.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout14 = new Scanner(System.in);
+                String logoutTimeString14 = logout14.next();
+
+                totHrs14 = calculateTotalHoursWorked(loginTimeString14, logoutTimeString14);
+                regHrs14 = calculateRegularHours(totHrs14);
+                otHrs14 = calculateOverTime(totHrs14);
+                
+        System.out.println("\n" + "Day 15: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login15 = new Scanner(System.in);
+                String loginTimeString15 = login15.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout15 = new Scanner(System.in);
+                String logoutTimeString15 = logout15.next();
+
+                totHrs15 = calculateTotalHoursWorked(loginTimeString15, logoutTimeString15);
+                regHrs15 = calculateRegularHours(totHrs15);
+                otHrs15 = calculateOverTime(totHrs15);
+                
+        System.out.println("\n" + "Day 16: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login16 = new Scanner(System.in);
+                String loginTimeString16 = login16.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout16 = new Scanner(System.in);
+                String logoutTimeString16 = logout16.next();
+
+                totHrs16 = calculateTotalHoursWorked(loginTimeString16, logoutTimeString16);
+                regHrs16 = calculateRegularHours(totHrs16);
+                otHrs16 = calculateOverTime(totHrs16);
+                
+        System.out.println("\n" + "Day 17: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login17 = new Scanner(System.in);
+                String loginTimeString17 = login17.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout17 = new Scanner(System.in);
+                String logoutTimeString17 = logout17.next();
+
+                totHrs17 = calculateTotalHoursWorked(loginTimeString17, logoutTimeString17);
+                regHrs17 = calculateRegularHours(totHrs17);
+                otHrs17 = calculateOverTime(totHrs17);
+                
+        System.out.println("\n" + "Day 18: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login18 = new Scanner(System.in);
+                String loginTimeString18 = login18.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout18 = new Scanner(System.in);
+                String logoutTimeString18 = logout18.next();
+
+                totHrs18 = calculateTotalHoursWorked(loginTimeString18, logoutTimeString18);
+                regHrs18 = calculateRegularHours(totHrs18);
+                otHrs18 = calculateOverTime(totHrs18);
+        }else{
+        if (noOfDays == 19) {
+        System.out.println("\n" + "Day 1: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login1 = new Scanner(System.in);
+            String loginTimeString1 = login1.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout1 = new Scanner(System.in);
+            String logoutTimeString1 = logout1.next();
+
+            totHrs1 = calculateTotalHoursWorked(loginTimeString1, logoutTimeString1);
+            regHrs1 = calculateRegularHours(totHrs1);
+            otHrs1 = calculateOverTime(totHrs1);
+            
+        System.out.println("\n" + "Day 2: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login2 = new Scanner(System.in);
+            String loginTimeString2 = login2.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout2 = new Scanner(System.in);
+            String logoutTimeString2 = logout2.next();
+
+            totHrs2 = calculateTotalHoursWorked(loginTimeString2, logoutTimeString2);
+            regHrs2 = calculateRegularHours(totHrs2);
+            otHrs2 = calculateOverTime(totHrs2);
+            
+        System.out.println("\n" + "Day 3: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login3 = new Scanner(System.in);
+            String loginTimeString3 = login3.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout3 = new Scanner(System.in);
+            String logoutTimeString3 = logout3.next();
+
+            totHrs3 = calculateTotalHoursWorked(loginTimeString3, logoutTimeString3);
+            regHrs3 = calculateRegularHours(totHrs3);
+            otHrs3 = calculateOverTime(totHrs3);
+            
+        System.out.println("\n" + "Day 4: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login4 = new Scanner(System.in);
+            String loginTimeString4 = login4.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout4 = new Scanner(System.in);
+            String logoutTimeString4 = logout4.next();
+
+            totHrs4 = calculateTotalHoursWorked(loginTimeString4, logoutTimeString4);
+            regHrs4 = calculateRegularHours(totHrs4);
+            otHrs4 = calculateOverTime(totHrs4);
+            
+        System.out.println("\n" + "Day 5: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login5 = new Scanner(System.in);
+            String loginTimeString5 = login5.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout5 = new Scanner(System.in);
+            String logoutTimeString5 = logout5.next();
+
+            totHrs5 = calculateTotalHoursWorked(loginTimeString5, logoutTimeString5);
+            regHrs5 = calculateRegularHours(totHrs5);
+            otHrs5 = calculateOverTime(totHrs5);
+            
+        System.out.println("\n" + "Day 6: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login6 = new Scanner(System.in);
+            String loginTimeString6 = login6.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout6 = new Scanner(System.in);
+            String logoutTimeString6 = logout6.next();
+
+            totHrs6 = calculateTotalHoursWorked(loginTimeString6, logoutTimeString6);
+            regHrs6 = calculateRegularHours(totHrs6);
+            otHrs6 = calculateOverTime(totHrs6);
+            
+        System.out.println("\n" + "Day 7: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login7 = new Scanner(System.in);
+            String loginTimeString7 = login7.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout7 = new Scanner(System.in);
+            String logoutTimeString7 = logout7.next();
+
+            totHrs7 = calculateTotalHoursWorked(loginTimeString7, logoutTimeString7);
+            regHrs7 = calculateRegularHours(totHrs7);
+            otHrs7 = calculateOverTime(totHrs7);    
+            
+        System.out.println("\n" + "Day 8: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login8 = new Scanner(System.in);
+            String loginTimeString8 = login8.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout8 = new Scanner(System.in);
+            String logoutTimeString8 = logout8.next();
+
+            totHrs8 = calculateTotalHoursWorked(loginTimeString8, logoutTimeString8);
+            regHrs8 = calculateRegularHours(totHrs8);
+            otHrs8 = calculateOverTime(totHrs8);    
+            
+        System.out.println("\n" + "Day 9: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login9 = new Scanner(System.in);
+            String loginTimeString9 = login9.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout9 = new Scanner(System.in);
+            String logoutTimeString9 = logout9.next();
+
+            totHrs9 = calculateTotalHoursWorked(loginTimeString9, logoutTimeString9);
+            regHrs9 = calculateRegularHours(totHrs9);
+            otHrs9 = calculateOverTime(totHrs9);    
+        
+        System.out.println("\n" + "Day 10: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login10 = new Scanner(System.in);
+            String loginTimeString10 = login10.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout10 = new Scanner(System.in);
+            String logoutTimeString10 = logout10.next();
+
+            totHrs10 = calculateTotalHoursWorked(loginTimeString10, logoutTimeString10);
+            regHrs10 = calculateRegularHours(totHrs10);
+            otHrs10 = calculateOverTime(totHrs10);
+        
+        System.out.println("\n" + "Day 11: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login11 = new Scanner(System.in);
+            String loginTimeString11 = login11.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout11 = new Scanner(System.in);
+            String logoutTimeString11 = logout11.next();
+
+            totHrs11 = calculateTotalHoursWorked(loginTimeString11, logoutTimeString11);
+            regHrs11 = calculateRegularHours(totHrs11);
+            otHrs11 = calculateOverTime(totHrs11);
+        
+        System.out.println("\n" + "Day 12: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login12 = new Scanner(System.in);
+                String loginTimeString12 = login12.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout12 = new Scanner(System.in);
+                String logoutTimeString12 = logout12.next();
+
+                totHrs12 = calculateTotalHoursWorked(loginTimeString12, logoutTimeString12);
+                regHrs12 = calculateRegularHours(totHrs12);
+                otHrs12 = calculateOverTime(totHrs12);
+        
+        System.out.println("\n" + "Day 13: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login13 = new Scanner(System.in);
+                String loginTimeString13 = login13.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout13 = new Scanner(System.in);
+                String logoutTimeString13 = logout13.next();
+
+                totHrs13 = calculateTotalHoursWorked(loginTimeString13, logoutTimeString13);
+                regHrs13 = calculateRegularHours(totHrs13);
+                otHrs13 = calculateOverTime(totHrs13);
+        
+        System.out.println("\n" + "Day 14: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login14 = new Scanner(System.in);
+                String loginTimeString14 = login14.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout14 = new Scanner(System.in);
+                String logoutTimeString14 = logout14.next();
+
+                totHrs14 = calculateTotalHoursWorked(loginTimeString14, logoutTimeString14);
+                regHrs14 = calculateRegularHours(totHrs14);
+                otHrs14 = calculateOverTime(totHrs14);
+                
+        System.out.println("\n" + "Day 15: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login15 = new Scanner(System.in);
+                String loginTimeString15 = login15.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout15 = new Scanner(System.in);
+                String logoutTimeString15 = logout15.next();
+
+                totHrs15 = calculateTotalHoursWorked(loginTimeString15, logoutTimeString15);
+                regHrs15 = calculateRegularHours(totHrs15);
+                otHrs15 = calculateOverTime(totHrs15);
+                
+        System.out.println("\n" + "Day 16: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login16 = new Scanner(System.in);
+                String loginTimeString16 = login16.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout16 = new Scanner(System.in);
+                String logoutTimeString16 = logout16.next();
+
+                totHrs16 = calculateTotalHoursWorked(loginTimeString16, logoutTimeString16);
+                regHrs16 = calculateRegularHours(totHrs16);
+                otHrs16 = calculateOverTime(totHrs16);
+                
+        System.out.println("\n" + "Day 17: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login17 = new Scanner(System.in);
+                String loginTimeString17 = login17.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout17 = new Scanner(System.in);
+                String logoutTimeString17 = logout17.next();
+
+                totHrs17 = calculateTotalHoursWorked(loginTimeString17, logoutTimeString17);
+                regHrs17 = calculateRegularHours(totHrs17);
+                otHrs17 = calculateOverTime(totHrs17);
+                
+        System.out.println("\n" + "Day 18: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login18 = new Scanner(System.in);
+                String loginTimeString18 = login18.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout18 = new Scanner(System.in);
+                String logoutTimeString18 = logout18.next();
+
+                totHrs18 = calculateTotalHoursWorked(loginTimeString18, logoutTimeString18);
+                regHrs18 = calculateRegularHours(totHrs18);
+                otHrs18 = calculateOverTime(totHrs18);
+                
+        System.out.println("\n" + "Day 19: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login19 = new Scanner(System.in);
+                String loginTimeString19 = login19.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout19 = new Scanner(System.in);
+                String logoutTimeString19 = logout19.next();
+
+                totHrs19 = calculateTotalHoursWorked(loginTimeString19, logoutTimeString19);
+                regHrs19 = calculateRegularHours(totHrs19);
+                otHrs19 = calculateOverTime(totHrs19);
+        }else{
+        if (noOfDays == 20) {
+        System.out.println("\n" + "Day 1: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login1 = new Scanner(System.in);
+            String loginTimeString1 = login1.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout1 = new Scanner(System.in);
+            String logoutTimeString1 = logout1.next();
+
+            totHrs1 = calculateTotalHoursWorked(loginTimeString1, logoutTimeString1);
+            regHrs1 = calculateRegularHours(totHrs1);
+            otHrs1 = calculateOverTime(totHrs1);
+            
+        System.out.println("\n" + "Day 2: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login2 = new Scanner(System.in);
+            String loginTimeString2 = login2.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout2 = new Scanner(System.in);
+            String logoutTimeString2 = logout2.next();
+
+            totHrs2 = calculateTotalHoursWorked(loginTimeString2, logoutTimeString2);
+            regHrs2 = calculateRegularHours(totHrs2);
+            otHrs2 = calculateOverTime(totHrs2);
+            
+        System.out.println("\n" + "Day 3: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login3 = new Scanner(System.in);
+            String loginTimeString3 = login3.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout3 = new Scanner(System.in);
+            String logoutTimeString3 = logout3.next();
+
+            totHrs3 = calculateTotalHoursWorked(loginTimeString3, logoutTimeString3);
+            regHrs3 = calculateRegularHours(totHrs3);
+            otHrs3 = calculateOverTime(totHrs3);
+            
+        System.out.println("\n" + "Day 4: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login4 = new Scanner(System.in);
+            String loginTimeString4 = login4.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout4 = new Scanner(System.in);
+            String logoutTimeString4 = logout4.next();
+
+            totHrs4 = calculateTotalHoursWorked(loginTimeString4, logoutTimeString4);
+            regHrs4 = calculateRegularHours(totHrs4);
+            otHrs4 = calculateOverTime(totHrs4);
+            
+        System.out.println("\n" + "Day 5: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login5 = new Scanner(System.in);
+            String loginTimeString5 = login5.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout5 = new Scanner(System.in);
+            String logoutTimeString5 = logout5.next();
+
+            totHrs5 = calculateTotalHoursWorked(loginTimeString5, logoutTimeString5);
+            regHrs5 = calculateRegularHours(totHrs5);
+            otHrs5 = calculateOverTime(totHrs5);
+            
+        System.out.println("\n" + "Day 6: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login6 = new Scanner(System.in);
+            String loginTimeString6 = login6.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout6 = new Scanner(System.in);
+            String logoutTimeString6 = logout6.next();
+
+            totHrs6 = calculateTotalHoursWorked(loginTimeString6, logoutTimeString6);
+            regHrs6 = calculateRegularHours(totHrs6);
+            otHrs6 = calculateOverTime(totHrs6);
+            
+        System.out.println("\n" + "Day 7: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login7 = new Scanner(System.in);
+            String loginTimeString7 = login7.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout7 = new Scanner(System.in);
+            String logoutTimeString7 = logout7.next();
+
+            totHrs7 = calculateTotalHoursWorked(loginTimeString7, logoutTimeString7);
+            regHrs7 = calculateRegularHours(totHrs7);
+            otHrs7 = calculateOverTime(totHrs7);    
+            
+        System.out.println("\n" + "Day 8: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login8 = new Scanner(System.in);
+            String loginTimeString8 = login8.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout8 = new Scanner(System.in);
+            String logoutTimeString8 = logout8.next();
+
+            totHrs8 = calculateTotalHoursWorked(loginTimeString8, logoutTimeString8);
+            regHrs8 = calculateRegularHours(totHrs8);
+            otHrs8 = calculateOverTime(totHrs8);    
+            
+        System.out.println("\n" + "Day 9: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login9 = new Scanner(System.in);
+            String loginTimeString9 = login9.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout9 = new Scanner(System.in);
+            String logoutTimeString9 = logout9.next();
+
+            totHrs9 = calculateTotalHoursWorked(loginTimeString9, logoutTimeString9);
+            regHrs9 = calculateRegularHours(totHrs9);
+            otHrs9 = calculateOverTime(totHrs9);    
+        
+        System.out.println("\n" + "Day 10: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login10 = new Scanner(System.in);
+            String loginTimeString10 = login10.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout10 = new Scanner(System.in);
+            String logoutTimeString10 = logout10.next();
+
+            totHrs10 = calculateTotalHoursWorked(loginTimeString10, logoutTimeString10);
+            regHrs10 = calculateRegularHours(totHrs10);
+            otHrs10 = calculateOverTime(totHrs10);
+        
+        System.out.println("\n" + "Day 11: ");
+            System.out.print("Enter login time (HH:mm): ");
+            Scanner login11 = new Scanner(System.in);
+            String loginTimeString11 = login11.next();
+		
+            System.out.print("Enter logout time (HH:mm): ");
+            Scanner logout11 = new Scanner(System.in);
+            String logoutTimeString11 = logout11.next();
+
+            totHrs11 = calculateTotalHoursWorked(loginTimeString11, logoutTimeString11);
+            regHrs11 = calculateRegularHours(totHrs11);
+            otHrs11 = calculateOverTime(totHrs11);
+        
+        System.out.println("\n" + "Day 12: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login12 = new Scanner(System.in);
+                String loginTimeString12 = login12.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout12 = new Scanner(System.in);
+                String logoutTimeString12 = logout12.next();
+
+                totHrs12 = calculateTotalHoursWorked(loginTimeString12, logoutTimeString12);
+                regHrs12 = calculateRegularHours(totHrs12);
+                otHrs12 = calculateOverTime(totHrs12);
+        
+        System.out.println("\n" + "Day 13: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login13 = new Scanner(System.in);
+                String loginTimeString13 = login13.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout13 = new Scanner(System.in);
+                String logoutTimeString13 = logout13.next();
+
+                totHrs13 = calculateTotalHoursWorked(loginTimeString13, logoutTimeString13);
+                regHrs13 = calculateRegularHours(totHrs13);
+                otHrs13 = calculateOverTime(totHrs13);
+        
+        System.out.println("\n" + "Day 14: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login14 = new Scanner(System.in);
+                String loginTimeString14 = login14.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout14 = new Scanner(System.in);
+                String logoutTimeString14 = logout14.next();
+
+                totHrs14 = calculateTotalHoursWorked(loginTimeString14, logoutTimeString14);
+                regHrs14 = calculateRegularHours(totHrs14);
+                otHrs14 = calculateOverTime(totHrs14);
+                
+        System.out.println("\n" + "Day 15: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login15 = new Scanner(System.in);
+                String loginTimeString15 = login15.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout15 = new Scanner(System.in);
+                String logoutTimeString15 = logout15.next();
+
+                totHrs15 = calculateTotalHoursWorked(loginTimeString15, logoutTimeString15);
+                regHrs15 = calculateRegularHours(totHrs15);
+                otHrs15 = calculateOverTime(totHrs15);
+                
+        System.out.println("\n" + "Day 16: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login16 = new Scanner(System.in);
+                String loginTimeString16 = login16.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout16 = new Scanner(System.in);
+                String logoutTimeString16 = logout16.next();
+
+                totHrs16 = calculateTotalHoursWorked(loginTimeString16, logoutTimeString16);
+                regHrs16 = calculateRegularHours(totHrs16);
+                otHrs16 = calculateOverTime(totHrs16);
+                
+        System.out.println("\n" + "Day 17: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login17 = new Scanner(System.in);
+                String loginTimeString17 = login17.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout17 = new Scanner(System.in);
+                String logoutTimeString17 = logout17.next();
+
+                totHrs17 = calculateTotalHoursWorked(loginTimeString17, logoutTimeString17);
+                regHrs17 = calculateRegularHours(totHrs17);
+                otHrs17 = calculateOverTime(totHrs17);
+                
+        System.out.println("\n" + "Day 18: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login18 = new Scanner(System.in);
+                String loginTimeString18 = login18.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout18 = new Scanner(System.in);
+                String logoutTimeString18 = logout18.next();
+
+                totHrs18 = calculateTotalHoursWorked(loginTimeString18, logoutTimeString18);
+                regHrs18 = calculateRegularHours(totHrs18);
+                otHrs18 = calculateOverTime(totHrs18);
+                
+        System.out.println("\n" + "Day 19: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login19 = new Scanner(System.in);
+                String loginTimeString19 = login19.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout19 = new Scanner(System.in);
+                String logoutTimeString19 = logout19.next();
+
+                totHrs19 = calculateTotalHoursWorked(loginTimeString19, logoutTimeString19);
+                regHrs19 = calculateRegularHours(totHrs19);
+                otHrs19 = calculateOverTime(totHrs19);
+                
+        System.out.println("\n" + "Day 20: ");
+                System.out.print("Enter login time (HH:mm): ");
+                Scanner login20 = new Scanner(System.in);
+                String loginTimeString20 = login20.next();
+
+                System.out.print("Enter logout time (HH:mm): ");
+                Scanner logout20 = new Scanner(System.in);
+                String logoutTimeString20 = logout20.next();
+
+                totHrs20 = calculateTotalHoursWorked(loginTimeString20, logoutTimeString20);
+                regHrs20 = calculateRegularHours(totHrs20);
+                otHrs20 = calculateOverTime(totHrs20);}}}}}}}}}}}}}}}}}}}}
+
+            double totHrs = totHrs1 + totHrs2 + totHrs3 + totHrs4 + totHrs5 + totHrs6 + totHrs7 + totHrs8 + totHrs9 + totHrs10 
+                            + totHrs11 + totHrs12 + totHrs13 + totHrs14 + totHrs15 + totHrs16 + totHrs17 + totHrs18 + totHrs19 + totHrs20;
+            double totRG = regHrs1 + regHrs2 + regHrs3 + regHrs4 + regHrs5 + regHrs6 + regHrs7 + regHrs8 + regHrs9 + regHrs10 
+                            + regHrs11 + regHrs12 + regHrs13 + regHrs14 + regHrs15 + regHrs16 + regHrs17 + regHrs18 + regHrs19 + regHrs20;
+            double totOT = otHrs1 + otHrs2 + otHrs3 + otHrs4 + otHrs5 + otHrs6 + otHrs7 + otHrs8 + otHrs9 + otHrs10 
+                            + otHrs11 + otHrs12 + otHrs13 + otHrs14 + otHrs15 + otHrs16 + otHrs17 + otHrs18 + otHrs19 + otHrs20;
             
             System.out.println("\n" + "Total Login Hours:     " + totHrs + "\n" +
                                       "Total Regular Hours:    " + totRG + "\n" +
                                       "Total Over-Time Hours:  " + totOT + "\n");
-            
+        if(totOT == 0) {taxableWage = totRG * hrlyRate; taxableWage = Math.round(taxableWage*100.0)/100.0;
+                    System.out.println("\n" + "Total taxable earnings =    " + taxableWage);}else{
+           
         System.out.println("\n" + "Would you like to pay the overtime hours? Type yes or no: "); 
                 Scanner otQ = new Scanner (System.in);
                 String otAns = otQ.next();
@@ -2967,7 +5611,7 @@ public static double calculateTaxableWage(double hrlyRate) {
                     taxableWage = Math.round(taxableWage*100.0)/100.0;
                     System.out.println("\n" + "Taxable earnings from regular hours:    " + taxableRGWage + "\n" +
                                        "Taxable earnings from overtime hours:   " + taxableOTWage + "\n" + 
-                                        "Total taxable earnings =               " + taxableWage);}
+                                        "Total taxable earnings =               " + taxableWage);}}
             
 }return taxableWage;
 }
@@ -3035,6 +5679,7 @@ public static double calculatePhilHealth(double netGross) {
         if (pHealthCalc > 1800) {philHealth = 1800 / 2;}else{
         if (netGross >= 10000 && netGross <= 60000) {philHealth = (netGross * 0.03) / 2;}
         }}
+        
         philHealth = Math.round(philHealth*100.0)/100.0;
         return philHealth;
     }
@@ -3051,6 +5696,7 @@ public static double calculatePagibig(double netGross) {
         if (netGross >1500 && pIbigCalc1 <= 100) {pagIbig = netGross * 0.02;}else{
         if (netGross <1000) {pagIbig = 0;}
         }}}}
+        
         pagIbig = Math.round(pagIbig*100.0)/100.0;
         return pagIbig;
     }
@@ -3122,10 +5768,10 @@ public static void payslipNObenefits(double netGross, double sssDed, double pHea
                                 "Enter letter of your choice (a or b)");
                 Scanner next = new Scanner (System.in);
                 String nextTask = next.next();
-                if ("a".equals(nextTask.toLowerCase())) {enterEmployeeNo(); }else{
+                if ("a".equals(nextTask.toLowerCase())) {clearConsole(); enterEmployeeNo(); }else{
                 if ("b".equals(nextTask.toLowerCase())) {viewSummary();}else{
                 System.out.println("!!! INVALID ENTRY ENTERED !!!" + "\n");}}
-            
+            clearConsole(); 
             enterEmployeeNo();
             
     }
@@ -3188,17 +5834,18 @@ public static void payslipWITHbenefits(double netGross, double sssDed, double pH
                                 "Enter letter of your choice (a or b)");
                 Scanner next = new Scanner (System.in);
                 String nextTask = next.next();
-                if ("a".equals(nextTask.toLowerCase())) {enterEmployeeNo(); }else{
+                if ("a".equals(nextTask.toLowerCase())) {clearConsole(); enterEmployeeNo();}else{
                 if ("b".equals(nextTask.toLowerCase())) {viewSummary();}else{
                 System.out.println("!!! INVALID ENTRY ENTERED !!!" + "\n");}}
-            
+            clearConsole(); 
             enterEmployeeNo();
   
     }
 
 
 
-    public static void viewSummary() {       
+    public static void viewSummary() {
+        clearConsole();
         //print out list of employee
         System.out.println("\n"+"Hello, Here's the pay data captured on the Pay Summary file" + "\n");
         
@@ -3216,4 +5863,14 @@ public static void payslipWITHbenefits(double netGross, double sssDed, double pH
         enterEmployeeNo();
     }
 
+    
+    
+    public static void clearConsole() {
+        // Print 50 empty lines to "clear" the console
+        for (int i = 0; i < 50; i++) {
+            System.out.println();
+        }
+        System.out.println("Console cleared!");
+    }
 }
+
